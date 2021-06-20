@@ -1,7 +1,7 @@
 # rasa-travel-chatbot
 
 <p align="center"> 
-      <img width="653" alt="Ekran Resmi 2021-06-20 15 44 14" src="https://user-images.githubusercontent.com/52889449/122674712-0f53e280-d1df-11eb-8c33-4c3af63f5901.png">
+      <img width="800" alt="Ekran Resmi 2021-06-20 15 44 14" src="https://user-images.githubusercontent.com/52889449/122674712-0f53e280-d1df-11eb-8c33-4c3af63f5901.png">
 </p>
 
 Here is my Senior Design Project that I implemented to graduate from Computer Engineering. It is a chatbot made in RASA and helps the user to plan their vacation in the Turkish language. In order to plan the user's vacation, it provides reservations by asking various questions for hotel, flight, or event. 
