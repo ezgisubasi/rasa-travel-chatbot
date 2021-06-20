@@ -57,6 +57,13 @@ First a message is received and passed to Rasa NLU to extract the intent, entiti
       <img width="550" alt="Ekran Resmi 2021-06-20 15 17 46" src="https://user-images.githubusercontent.com/52889449/122673772-b1250080-d1da-11eb-9fc1-08376d04bf8b.png">
 </p>
 
+Here is an example of intent classification and entity extraction for a possible input sentence that chatbot can receive from user in this project.
+
+<p align="center"> 
+      <img width="550" alt="Ekran Resmi 2021-06-20 15 45 03" src="https://user-images.githubusercontent.com/52889449/122674608-92286d80-d1de-11eb-9be3-8d78ffce0adc.png">
+      
+</p>
+
 
 # Best Configuration
 
