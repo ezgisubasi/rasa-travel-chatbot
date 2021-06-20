@@ -57,19 +57,22 @@ First a message is received and passed to Rasa NLU to extract the intent, entiti
 
 We used pre-trained language model BERT for our pipeline. We compared three different pipeline configurations: a light configuration, a configuration using ConveRT, and a heavy configuration that included BERT. In each case we’re training a DIETClassifier for combined intent classification and entity recognition for 200 epochs, but in the light configuration we have CountVectorsFeaturizer, which creates bag-of-word representations for each incoming message at word and character levels. In the end, we chose config-light as the configuration of the chatbot.
 
-### config-convert:
+### config-light:
 
-<p align="center"> 
-
-      
-      
-      
+<p align="center">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 26 15" src="https://user-images.githubusercontent.com/52889449/122674048-247b4200-d1dc-11eb-8cb3-dceebc77d571.png">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 26 36" src="https://user-images.githubusercontent.com/52889449/122674049-25ac6f00-d1dc-11eb-8e26-9be55d352701.png">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 27 25" src="https://user-images.githubusercontent.com/52889449/122674040-1d543400-d1dc-11eb-9f0d-d1936ddce096.png">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 27 46" src="https://user-images.githubusercontent.com/52889449/122674055-29d88c80-d1dc-11eb-837a-37982315c32b.png">
 </p>
 
 
-### config-light:
+### config-convert:
 
 <p align="center"> 
+      
+      
+      
 
 </p>
 
