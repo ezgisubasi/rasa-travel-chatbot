@@ -36,7 +36,11 @@ Here is an example conversation for booking an event in Turkish.
 
 # Turkish Dataset
 
+Due to the small number of chatbots in the Turkish language, Turkish datasets are also less. For this reason, we prepared a Turkish dataset from scratch while doing this project. In the end, we have 93 intents 29 entities in total and average 7 sentences for each intent.
 
+<p align="center"> 
+<img width="550" alt="Ekran Resmi 2021-06-20 15 08 45" src="https://user-images.githubusercontent.com/52889449/122673598-ce0d0400-d1d9-11eb-802a-9177eee58bdf.png">
+</p>
 
 # RASA
 
