@@ -56,7 +56,7 @@ Due to the small number of chatbots in the Turkish language, Turkish datasets ar
 Rasa is an open source python library for constructing conversational software with minimal (or no) initial training data. It consists of two parts: Rasa NLU and Rasa Core. Dialogue management problem can be handled as a classification problem. At each iteration, **Rasa Core** predicts which action to take from a predefined list. On the other hand, **Rasa NLU** is a tool for natural language understanding. It combines a number of natural language processing and machine learning libraries in a consistent API.
 
 <p align="center"> 
-     <img width="550" alt="Ekran Resmi 2021-06-20 15 17 46" src="https://user-images.githubusercontent.com/52889449/122674675-e9c6d900-d1de-11eb-94f0-937db5a811ea.png">
+     <img width="600" alt="Ekran Resmi 2021-06-20 15 17 46" src="https://user-images.githubusercontent.com/52889449/122674675-e9c6d900-d1de-11eb-94f0-937db5a811ea.png">
 </p>
 
 
@@ -81,11 +81,11 @@ We used pre-trained language model BERT for our pipeline. We compared three diff
 # Results of the Configurations
 
 <p align="center"> 
-      <img width="571" alt="Ekran Resmi 2021-06-20 15 21 16" src="https://user-images.githubusercontent.com/52889449/122673919-7c657900-d1db-11eb-933f-430a6520ec19.png">
+      <img width="600" alt="Ekran Resmi 2021-06-20 15 21 16" src="https://user-images.githubusercontent.com/52889449/122673919-7c657900-d1db-11eb-933f-430a6520ec19.png">
 </p>
 
 <p align="center"> 
-      <img width="571" alt="Ekran Resmi 2021-06-20 15 21 27" src="https://user-images.githubusercontent.com/52889449/122673920-7d96a600-d1db-11eb-9851-fcf36fc4f137.png">
+      <img width="600" alt="Ekran Resmi 2021-06-20 15 21 27" src="https://user-images.githubusercontent.com/52889449/122673920-7d96a600-d1db-11eb-9851-fcf36fc4f137.png">
 </p>
 
 In the images below, there are confusion matrices created by each configuration for intent classification and entity extraction in turn.
