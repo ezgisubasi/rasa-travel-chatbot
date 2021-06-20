@@ -6,15 +6,15 @@ Here is my Senior Design Project that I implemented to graduate from Computer En
 
 1. Create a virtual environment of python 3.6 or greater.
 2. Navigate to the rasa directory. Run the command:
-       rasa train
+       *rasa train
 3. After the model is trained, launch the rasa core server:
-       rasa run -m models --enable-api
+       *rasa run -m models --enable-api
 4. Launch the rasa actions server in another terminal:
-       rasa run actions
+       *rasa run actions
 5. Navigate to the chatbot/backend. Run the command:
-       python route.py
+       *python route.py
 6. Launch the frontend on the local python http server under the interface directory:
-       python -m http.server
+       *python -m http.server
 
 
 # Interface
@@ -26,9 +26,9 @@ Here is my Senior Design Project that I implemented to graduate from Computer En
 
 # RASA
 
-### Rasa Core:
+## Rasa Core:
 
-### Rasa NLU:
+## Rasa NLU:
 
 
 # Best Configuration
