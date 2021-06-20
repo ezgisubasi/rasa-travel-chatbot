@@ -36,7 +36,7 @@ Here is an example conversation for booking an event in Turkish.
 
 # Turkish Dataset
 
-Due to the small number of chatbots in the Turkish language, Turkish datasets are also less. For this reason, we prepared a Turkish dataset from scratch while doing this project. In the end, we have 93 intents 29 entities in total and average 7 sentences for each intent.
+Due to the small number of chatbots in the Turkish language, Turkish datasets are also less. For this reason, we prepared a Turkish dataset from scratch while doing this project. In order to do this, we translated the English datasets into Turkish using the Google API. In the end, we have 93 intents 29 entities in total, and an average of 7 sentences for each intent.
 
 <p align="center"> 
 <img width="550" alt="Ekran Resmi 2021-06-20 15 08 45" src="https://user-images.githubusercontent.com/52889449/122673598-ce0d0400-d1d9-11eb-802a-9177eee58bdf.png">
@@ -49,7 +49,7 @@ Rasa is an open source python library for constructing conversational software w
 First a message is received and passed to Rasa NLU to extract the intent, entities, and the other structured information. Then the conversation state saved in the tracker which receives a notification that a new message has been received. In step 3, the policy receives the current state of the tracker and chooses which action to take next. Then chosen action is logged by the tracker and executed. If the predicted action is not ‘listen’, go back to step 3. After the first step all the remaining steps are performed by Rasa Core.
 
 <p align="center"> 
-      <img width="535" alt="Ekran Resmi 2021-06-20 15 17 46" src="https://user-images.githubusercontent.com/52889449/122673772-b1250080-d1da-11eb-9fc1-08376d04bf8b.png">
+      <img width="550" alt="Ekran Resmi 2021-06-20 15 17 46" src="https://user-images.githubusercontent.com/52889449/122673772-b1250080-d1da-11eb-9fc1-08376d04bf8b.png">
 </p>
 
 
