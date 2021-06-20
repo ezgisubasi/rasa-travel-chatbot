@@ -1,7 +1,7 @@
 # rasa-travel-chatbot
 
 <p align="center"> 
-      <img width="800" alt="Ekran Resmi 2021-06-20 15 44 14" src="https://user-images.githubusercontent.com/52889449/122674712-0f53e280-d1df-11eb-8c33-4c3af63f5901.png">
+      <img width="1000" alt="Ekran Resmi 2021-06-20 15 44 14" src="https://user-images.githubusercontent.com/52889449/122674712-0f53e280-d1df-11eb-8c33-4c3af63f5901.png">
 </p>
 
 Here is my Senior Design Project that I implemented to graduate from Computer Engineering. It is a chatbot made in RASA and helps the user to plan their vacation in the Turkish language. In order to plan the user's vacation, it provides reservations by asking various questions for hotel, flight, or event. 
@@ -103,17 +103,17 @@ In the images below, there are confusion matrices created by each configuration 
 ### config-convert:
 
 <p align="center">  
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 30 19" src="https://user-images.githubusercontent.com/52889449/122674162-8b98f680-d1dc-11eb-8639-140cfff0a7fc.png">
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 30 30" src="https://user-images.githubusercontent.com/52889449/122674166-8d62ba00-d1dc-11eb-9989-7b5067375f23.png">
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 30 42" src="https://user-images.githubusercontent.com/52889449/122674170-8e93e700-d1dc-11eb-8990-297eecbf0ab7.png">
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 30 54" src="https://user-images.githubusercontent.com/52889449/122674174-8f2c7d80-d1dc-11eb-94d1-d875971e7942.png">
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 30 19" src="https://user-images.githubusercontent.com/52889449/122674162-8b98f680-d1dc-11eb-8639-140cfff0a7fc.png">
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 30 30" src="https://user-images.githubusercontent.com/52889449/122674166-8d62ba00-d1dc-11eb-9989-7b5067375f23.png">
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 30 42" src="https://user-images.githubusercontent.com/52889449/122674170-8e93e700-d1dc-11eb-8990-297eecbf0ab7.png">
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 30 54" src="https://user-images.githubusercontent.com/52889449/122674174-8f2c7d80-d1dc-11eb-94d1-d875971e7942.png">
 </p>
 
 ### config-heavy:
 
 <p align="center">    
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 32 01" src="https://user-images.githubusercontent.com/52889449/122674208-c0a54900-d1dc-11eb-8534-69aa843b5f2e.png">  
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 32 12" src="https://user-images.githubusercontent.com/52889449/122674209-c307a300-d1dc-11eb-9dce-836d022e241d.png">    
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 32 22" src="https://user-images.githubusercontent.com/52889449/122674210-c4d16680-d1dc-11eb-9503-ad7f33a51bef.png">   
-      <img width="300" alt="Ekran Resmi 2021-06-20 15 32 32" src="https://user-images.githubusercontent.com/52889449/122674213-c69b2a00-d1dc-11eb-8821-75aa89e2ee33.png">
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 32 01" src="https://user-images.githubusercontent.com/52889449/122674208-c0a54900-d1dc-11eb-8534-69aa843b5f2e.png">  
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 32 12" src="https://user-images.githubusercontent.com/52889449/122674209-c307a300-d1dc-11eb-9dce-836d022e241d.png">    
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 32 22" src="https://user-images.githubusercontent.com/52889449/122674210-c4d16680-d1dc-11eb-9503-ad7f33a51bef.png">   
+      <img width="400" alt="Ekran Resmi 2021-06-20 15 32 32" src="https://user-images.githubusercontent.com/52889449/122674213-c69b2a00-d1dc-11eb-8821-75aa89e2ee33.png">
 </p>
