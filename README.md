@@ -88,6 +88,8 @@ We used pre-trained language model BERT for our pipeline. We compared three diff
       <img width="571" alt="Ekran Resmi 2021-06-20 15 21 27" src="https://user-images.githubusercontent.com/52889449/122673920-7d96a600-d1db-11eb-9851-fcf36fc4f137.png">
 </p>
 
+In the images below, there are confusion matrices created by each configuration for intent classification and entity extraction in turn.
+
 ### config-light:
 
 <p align="center">
