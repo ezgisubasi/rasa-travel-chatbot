@@ -1,0 +1,180 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: ordering event ticket 1
+  steps:
+  - user: |
+      selam
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Konsere gitmek istiyorum
+    intent: desired_event
+  - action: event_form
+  - active_loop: event_form
+  - slot_was_set:
+      - requested_slot: event
+      - requested_slot: ticket
+      - requested_slot: mail
+  - action: utter_anything_else
+
+- story: otel
+  steps:
+  - user: |
+      merhaba
+    intent: greet
+  - action: utter_greet
+  - user: |
+      otel arıyorum
+    intent: enquire_hotel_details
+  - action: otel_form
+  - active_loop: otel_form
+  - slot_was_set:
+      - requested_slot: city
+      - requested_slot: start_date
+      - requested_slot: end_date
+      - requested_slot: person
+  - action: utter_anything_else
+
+- story: flight
+  steps:
+  - user: |
+      uçuşlar lütfen
+  - intent: enquire_flight_details
+  - action: flight_form
+  - active_loop: flight_form
+  - slot_was_set:
+      - requested_slot: source_city
+      - requested_slot: destination_city
+      - requested_slot: flight_name
+      - requested_slot: class_num
+      - requested_slot: adult
+      - requested_slot: child
+  - action: utter_anything_else
+
+- story: ordering festival tickets, flight and otel 1
+  steps:
+  - user: |
+      merhaba
+  - intent: greet
+  - action: utter_greet
+  - user: |
+      konsere gitmek istiyorum
+  - intent: desired_event
+  - action: event_form
+  - active_loop: event_form
+  - slot_was_set:
+      - requested_slot: event
+      - requested_slot: ticket
+      - requested_slot: mail
+  - user: |
+      uçuşlar lütfen
+  - intent: enquire_flight_details
+  - action: flight_form
+  - active_loop: flight_form
+  - slot_was_set:
+      - requested_slot: source_city
+      - requested_slot: destination_city
+      - requested_slot: flight_name
+      - requested_slot: class_num
+      - requested_slot: adult
+      - requested_slot: child
+  - user: |
+      otel arıyorum
+  - intent: enquire_hotel_details
+  - action: otel_form
+  - active_loop: otel_form
+  - slot_was_set:
+      - requested_slot: city
+      - requested_slot: start_date
+      - requested_slot: end_date
+      - requested_slot: person
+  - action: utter_anything_else
+
+- story: ordering event ticket and otel 1
+  steps:
+  - user: |
+      selam
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Konsere gitmek istiyorum
+    intent: desired_event
+  - action: event_form
+  - active_loop: event_form
+  - slot_was_set:
+      - requested_slot: event
+      - requested_slot: ticket
+      - requested_slot: mail
+  - user: |
+      otel arıyorum
+  - intent: enquire_hotel_details
+  - action: otel_form
+  - active_loop: otel_form
+  - slot_was_set:
+      - requested_slot: city
+      - requested_slot: start_date
+      - requested_slot: end_date
+      - requested_slot: person
+  - action: utter_anything_else
+
+- story: ordering event ticket 1 and flight 1
+  steps:
+  - user: |
+      selam
+    intent: greet
+  - action: utter_greet
+  - user: |
+      Konsere gitmek istiyorum
+    intent: desired_event
+  - action: event_form
+  - active_loop: event_form
+  - slot_was_set:
+      - requested_slot: event
+      - requested_slot: ticket
+      - requested_slot: mail
+  - user: |
+      uçuşlar lütfen
+  - intent: enquire_flight_details
+  - action: flight_form
+  - active_loop: flight_form
+  - slot_was_set:
+      - requested_slot: source_city
+      - requested_slot: destination_city
+      - requested_slot: flight_name
+      - requested_slot: class_num
+      - requested_slot: adult
+      - requested_slot: child
+  - action: utter_anything_else
+
+- story: otel and flight 1
+  steps:
+  - user: |
+      selam
+    intent: greet
+  - action: utter_greet
+  - user: |
+      otel arıyorum
+    intent: enquire_hotel_details
+  - action: otel_form
+  - active_loop: otel_form
+  - slot_was_set:
+      - requested_slot: city
+      - requested_slot: start_date
+      - requested_slot: end_date
+      - requested_slot: person
+  - action: utter_anything_else
+  - user: |
+      uçuşlar lütfen
+  - intent: enquire_flight_details
+  - action: flight_form
+  - active_loop: flight_form
+  - slot_was_set:
+      - requested_slot: source_city
+      - requested_slot: destination_city
+      - requested_slot: flight_name
+      - requested_slot: class_num
+      - requested_slot: adult
+      - requested_slot: child
+  - action: utter_anything_else

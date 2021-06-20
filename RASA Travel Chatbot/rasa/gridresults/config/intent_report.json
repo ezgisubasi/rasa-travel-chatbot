@@ -1,0 +1,889 @@
+{
+  "enquire_flight_details": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1-score": 0.761904761904762,
+    "support": 10,
+    "confused_with": {
+      "faqparkingcost": 1,
+      "faqlatecheckin": 1
+    }
+  },
+  "enquire_pnr": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "inform_pnr": 2,
+      "faqcheckin": 1,
+      "other_activities": 1
+    }
+  },
+  "faqbabycot": {
+    "precision": 0.8888888888888888,
+    "recall": 1.0,
+    "f1-score": 0.9411764705882353,
+    "support": 8,
+    "confused_with": {}
+  },
+  "tips_and_tricks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "inform_no_of_adults": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "inform_train_number": 2,
+      "telling_phoneno": 1,
+      "telling_numpeople": 1
+    }
+  },
+  "more_info_zipline_tour": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7,
+    "confused_with": {}
+  },
+  "telling_category": {
+    "precision": 0.6071428571428571,
+    "recall": 0.7083333333333334,
+    "f1-score": 0.6538461538461539,
+    "support": 24,
+    "confused_with": {
+      "ask_which_events": 2,
+      "enquire_flight_details": 1
+    }
+  },
+  "selected_no": {
+    "precision": 0.375,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.4800000000000001,
+    "support": 9,
+    "confused_with": {
+      "goodbye": 1,
+      "affirm": 1
+    }
+  },
+  "inform_quota_code": {
+    "precision": 0.6,
+    "recall": 0.75,
+    "f1-score": 0.6666666666666665,
+    "support": 4,
+    "confused_with": {
+      "affirm": 1
+    }
+  },
+  "enquire_train_quota_info": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "enquire_flight_details": 1,
+      "inform_seating_class": 1
+    }
+  },
+  "faqcontactnumber": {
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6153846153846153,
+    "support": 6,
+    "confused_with": {
+      "enquire_train_route": 1,
+      "faqnearestairport": 1
+    }
+  },
+  "inform_age": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "inform_train_number": 1,
+      "telling_phoneno": 1,
+      "telling_numpeople": 1
+    }
+  },
+  "enquire_train_station": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 4,
+    "confused_with": {
+      "got_total_tickets": 1
+    }
+  },
+  "faqroomcount": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {
+      "selected_no": 1,
+      "inform_seating_class": 1
+    }
+  },
+  "faqbreakfast": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "got_total_tickets": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1-score": 0.28571428571428575,
+    "support": 5,
+    "confused_with": {
+      "enquire_train_route": 3,
+      "telling_phoneno": 1
+    }
+  },
+  "inform_city": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "weather_address": 3,
+      "inform_destination_station_name": 1,
+      "telling_location": 1
+    }
+  },
+  "deny": {
+    "precision": 0.7096774193548387,
+    "recall": 0.7586206896551724,
+    "f1-score": 0.7333333333333333,
+    "support": 29,
+    "confused_with": {
+      "selected_no": 2,
+      "telling_category": 1
+    }
+  },
+  "desired_city": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 4,
+    "confused_with": {
+      "telling_numpeople": 1,
+      "enquire_train_route": 1
+    }
+  },
+  "inform_destination_airport": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "inform_source_station_name": 1,
+      "affirm": 1,
+      "desired_city": 1
+    }
+  },
+  "faqearlycheckin": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "inform_train_date": 1,
+      "add_to_mytrip": 1,
+      "faqcheckin": 1
+    }
+  },
+  "plan_my_trip": {
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.5,
+    "support": 3,
+    "confused_with": {
+      "faqparkingcost": 1,
+      "faqmeetingroom": 1
+    }
+  },
+  "faqpetpolicy": {
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1-score": 0.7499999999999999,
+    "support": 6,
+    "confused_with": {}
+  },
+  "enquire_hotel_details": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "enquire_train_route": 1,
+      "telling_cuisine": 1
+    }
+  },
+  "faqluggage": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "affirm": 1,
+      "faqmodifyreservation": 1
+    }
+  },
+  "telling_numpeople": {
+    "precision": 0.5483870967741935,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.6938775510204082,
+    "support": 18,
+    "confused_with": {
+      "telling_phoneno": 1
+    }
+  },
+  "enquire_trains_class_info": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "enquire_train_quota_info": 1
+    }
+  },
+  "otel_date_end": {
+    "precision": 0.25,
+    "recall": 0.2,
+    "f1-score": 0.22222222222222224,
+    "support": 5,
+    "confused_with": {
+      "selected_no": 2,
+      "otel_date_start": 2
+    }
+  },
+  "desired_room": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "telling_numpeople": 3,
+      "telling_phoneno": 1
+    }
+  },
+  "inform_pnr": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "telling_phoneno": 2,
+      "enquire_train_route": 1,
+      "other_activities": 1
+    }
+  },
+  "telling_datetime": {
+    "precision": 0.75,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.631578947368421,
+    "support": 11,
+    "confused_with": {
+      "telling_numpeople": 2,
+      "mood_unhappy": 1
+    }
+  },
+  "enquire_train_fare": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "inform_class_code": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 4,
+    "confused_with": {
+      "affirm": 1,
+      "inform_seating_class": 1
+    }
+  },
+  "got_email": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "desired_event": {
+    "precision": 0.25,
+    "recall": 0.2,
+    "f1-score": 0.22222222222222224,
+    "support": 5,
+    "confused_with": {
+      "ask_which_events": 2,
+      "telling_category": 2
+    }
+  },
+  "faqpartialcancel": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "weather": 1,
+      "faqpetpolicy": 1,
+      "inform_seating_class": 1
+    }
+  },
+  "faqlatecheckin": {
+    "precision": 0.16666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.2222222222222222,
+    "support": 3,
+    "confused_with": {
+      "faqcheckinage": 1,
+      "telling_category": 1
+    }
+  },
+  "inform_source_airport": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "inform_source_station_name": 1,
+      "telling_numpeople": 1
+    }
+  },
+  "ask_which_events": {
+    "precision": 0.6842105263157895,
+    "recall": 0.896551724137931,
+    "f1-score": 0.7761194029850746,
+    "support": 29,
+    "confused_with": {
+      "activities_offered": 1,
+      "deny": 1
+    }
+  },
+  "faqrefundable": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "selected_no": 1,
+      "selected_event": 1,
+      "faqcancellationpolicy": 1
+    }
+  },
+  "faqcheckinage": {
+    "precision": 0.5,
+    "recall": 0.25,
+    "f1-score": 0.3333333333333333,
+    "support": 4,
+    "confused_with": {
+      "faqcheckin": 1,
+      "telling_location": 1
+    }
+  },
+  "faqcheckout": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "enquire_train_station_code": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "weather_address_date_time": {
+    "precision": 0.6363636363636364,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.7000000000000001,
+    "support": 9,
+    "confused_with": {
+      "weather": 1,
+      "weather_address": 1
+    }
+  },
+  "enquire_train_station_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "faqpetpolicy": 1,
+      "enquire_train_station_code": 1,
+      "enquire_train_route": 1
+    }
+  },
+  "faqbreakfasttime": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "telling_cuisine": 2,
+      "selected_event": 1
+    }
+  },
+  "telling_location": {
+    "precision": 0.64,
+    "recall": 0.7619047619047619,
+    "f1-score": 0.6956521739130435,
+    "support": 21,
+    "confused_with": {
+      "restaurant_search": 2,
+      "weather_address": 1
+    }
+  },
+  "main_menu": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "goodbye": 1,
+      "telling_category": 1
+    }
+  },
+  "inform_destination_station_name": {
+    "precision": 0.3333333333333333,
+    "recall": 0.25,
+    "f1-score": 0.28571428571428575,
+    "support": 4,
+    "confused_with": {
+      "selected_no": 1,
+      "affirm": 1
+    }
+  },
+  "faqparking": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.7777777777777778,
+    "support": 9,
+    "confused_with": {
+      "affirm": 1,
+      "telling_numpeople": 1
+    }
+  },
+  "other_activities": {
+    "precision": 0.2,
+    "recall": 0.25,
+    "f1-score": 0.22222222222222224,
+    "support": 4,
+    "confused_with": {
+      "enquire_train_station": 1,
+      "more_info_zipline_tour": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.5238095238095238,
+    "recall": 0.5238095238095238,
+    "f1-score": 0.5238095238095238,
+    "support": 21,
+    "confused_with": {
+      "affirm": 7,
+      "selected_no": 1
+    }
+  },
+  "restaurant_search": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8450704225352113,
+    "support": 35,
+    "confused_with": {
+      "telling_location": 2,
+      "enquire_flight_details": 1
+    }
+  },
+  "otel_date_start": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "otel_date_end": 3,
+      "selected_no": 1
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.9,
+    "support": 22,
+    "confused_with": {
+      "affirm": 2,
+      "mood_great": 1
+    }
+  },
+  "activities_offered": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "ask_which_events": 2,
+      "other_activities": 1
+    }
+  },
+  "telling_phoneno": {
+    "precision": 0.42105263157894735,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.5333333333333333,
+    "support": 11,
+    "confused_with": {
+      "telling_numpeople": 1,
+      "affirm": 1
+    }
+  },
+  "mood_great": {
+    "precision": 0.2,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.1818181818181818,
+    "support": 12,
+    "confused_with": {
+      "affirm": 6,
+      "inform_source_airport": 1
+    }
+  },
+  "inform_seating_class": {
+    "precision": 0.4166666666666667,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.5263157894736842,
+    "support": 7,
+    "confused_with": {
+      "affirm": 1,
+      "inform_class_code": 1
+    }
+  },
+  "faqcancellationpolicy": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "weather": 1,
+      "faqpetpolicy": 1
+    }
+  },
+  "inform_station_code": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "affirm": 2,
+      "inform_quota_code": 1,
+      "enquire_train_route": 1
+    }
+  },
+  "faqmodifyreservation": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 3,
+    "confused_with": {
+      "got_email": 1
+    }
+  },
+  "telling_location_cuisine": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7777777777777778,
+    "f1-score": 0.7777777777777778,
+    "support": 18,
+    "confused_with": {
+      "telling_location": 3,
+      "telling_cuisine": 1
+    }
+  },
+  "faqlatecheckout": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 4,
+    "confused_with": {
+      "telling_category": 1,
+      "inform_train_date": 1
+    }
+  },
+  "inform_no_of_children": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6,
+    "confused_with": {
+      "telling_phoneno": 1
+    }
+  },
+  "inform_no_of_infants": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "inform_seating_class": 2,
+      "telling_datetime": 1,
+      "inform_no_of_children": 1
+    }
+  },
+  "inform_train_number": {
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1-score": 0.4000000000000001,
+    "support": 5,
+    "confused_with": {
+      "telling_phoneno": 3
+    }
+  },
+  "faqreservaconfirm": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "goodbye": 1
+    }
+  },
+  "add_to_mytrip": {
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.7272727272727273,
+    "support": 4,
+    "confused_with": {}
+  },
+  "telling_cuisine": {
+    "precision": 0.7692307692307693,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.7692307692307693,
+    "support": 26,
+    "confused_with": {
+      "telling_location_cuisine": 3,
+      "restaurant_search": 2
+    }
+  },
+  "inform_flight_date": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 6,
+    "confused_with": {}
+  },
+  "enquire_train_cancel": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 4,
+    "confused_with": {
+      "faqpetpolicy": 1,
+      "ask_which_events": 1
+    }
+  },
+  "faqmeetingroom": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "inform_destination_airport": 1,
+      "telling_category": 1
+    }
+  },
+  "faqcheckin": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "faqlatecheckin": 3,
+      "enquire_train_station_name": 1,
+      "affirm": 1
+    }
+  },
+  "sssecurity": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 4,
+    "confused_with": {
+      "telling_numpeople": 1,
+      "telling_cuisine": 1
+    }
+  },
+  "inform_train_date": {
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.7272727272727273,
+    "support": 4,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 0.5,
+    "recall": 0.5,
+    "f1-score": 0.5,
+    "support": 10,
+    "confused_with": {
+      "affirm": 4,
+      "deny": 1
+    }
+  },
+  "affirm": {
+    "precision": 0.49333333333333335,
+    "recall": 0.5967741935483871,
+    "f1-score": 0.5401459854014599,
+    "support": 62,
+    "confused_with": {
+      "mood_great": 7,
+      "goodbye": 6
+    }
+  },
+  "selected_event": {
+    "precision": 0.8125,
+    "recall": 1.0,
+    "f1-score": 0.896551724137931,
+    "support": 13,
+    "confused_with": {}
+  },
+  "weather": {
+    "precision": 0.7894736842105263,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8108108108108109,
+    "support": 18,
+    "confused_with": {
+      "weather_address_date_time": 2,
+      "affirm": 1
+    }
+  },
+  "faqreceptiontime": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "telling_numpeople": 1
+    }
+  },
+  "selected_list": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "ask_which_events": 2,
+      "telling_category": 2,
+      "affirm": 1
+    }
+  },
+  "ask_time": {
+    "precision": 0.9285714285714286,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.896551724137931,
+    "support": 15,
+    "confused_with": {
+      "deny": 1,
+      "enquire_train_cancel": 1
+    }
+  },
+  "about_istanbul": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "weather_address": 1,
+      "more_info_zipline_tour": 1,
+      "ask_which_events": 1
+    }
+  },
+  "faqnearestairport": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 5,
+    "confused_with": {
+      "add_to_mytrip": 2
+    }
+  },
+  "weather_address": {
+    "precision": 0.3333333333333333,
+    "recall": 0.375,
+    "f1-score": 0.35294117647058826,
+    "support": 8,
+    "confused_with": {
+      "weather_address_date_time": 2,
+      "ask_time": 1
+    }
+  },
+  "faqchildrenage": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 4,
+    "confused_with": {}
+  },
+  "enquire_train_seat": {
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1-score": 0.4,
+    "support": 4,
+    "confused_with": {
+      "more_info_zipline_tour": 1,
+      "telling_location": 1
+    }
+  },
+  "inform_source_station_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "affirm": 2,
+      "ask_which_events": 1,
+      "inform_destination_airport": 1
+    }
+  },
+  "enquire_train_route": {
+    "precision": 0.3333333333333333,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.4545454545454545,
+    "support": 7,
+    "confused_with": {
+      "telling_numpeople": 1,
+      "faqparking": 1
+    }
+  },
+  "faqparkingcost": {
+    "precision": 0.25,
+    "recall": 0.25,
+    "f1-score": 0.25,
+    "support": 4,
+    "confused_with": {
+      "affirm": 1,
+      "faqparking": 1
+    }
+  },
+  "accuracy": 0.6268656716417911,
+  "macro avg": {
+    "precision": 0.5347827690457684,
+    "recall": 0.511636394113261,
+    "f1-score": 0.5018576505421112,
+    "support": 737
+  },
+  "weighted avg": {
+    "precision": 0.5979248643376434,
+    "recall": 0.6268656716417911,
+    "f1-score": 0.5981529414061855,
+    "support": 737
+  }
+}

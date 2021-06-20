@@ -1,0 +1,6 @@
+language: tr
+pipeline:
+- name: ConveRTTokenizer
+- name: ConveRTFeaturizer
+- name: DIETClassifier
+epochs: 200

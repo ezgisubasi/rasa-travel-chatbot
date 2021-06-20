@@ -1,0 +1,280 @@
+{
+  "pnr_num": {
+    "precision": 0.25,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2,
+    "support": 6,
+    "confused_with": {
+      "phone_no": 3,
+      "person": 2
+    }
+  },
+  "stationcode": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "person": 2
+    }
+  },
+  "station_name": {
+    "precision": 0.6666666666666666,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.4,
+    "support": 7,
+    "confused_with": {
+      "station": 1
+    }
+  },
+  "city": {
+    "precision": 0.9047619047619048,
+    "recall": 0.8837209302325582,
+    "f1-score": 0.8941176470588236,
+    "support": 43,
+    "confused_with": {
+      "source_city": 1
+    }
+  },
+  "flight_date": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "location": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "place": 1
+    }
+  },
+  "class_num": {
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8571428571428572,
+    "support": 11,
+    "confused_with": {}
+  },
+  "station_code": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "source_city": {
+    "precision": 0.5,
+    "recall": 0.4,
+    "f1-score": 0.4444444444444445,
+    "support": 5,
+    "confused_with": {
+      "city": 1,
+      "destination_city": 1
+    }
+  },
+  "weather": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "date_time": {
+    "precision": 0.7333333333333333,
+    "recall": 0.5,
+    "f1-score": 0.5945945945945945,
+    "support": 22,
+    "confused_with": {
+      "person": 2
+    }
+  },
+  "destination_city": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "city": 2,
+      "source_city": 1
+    }
+  },
+  "infant": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "child": 2,
+      "ticket": 1,
+      "person": 1
+    }
+  },
+  "phone_no": {
+    "precision": 0.21739130434782608,
+    "recall": 0.45454545454545453,
+    "f1-score": 0.29411764705882354,
+    "support": 11,
+    "confused_with": {
+      "train_num": 3,
+      "person": 2
+    }
+  },
+  "age": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "phone_no": 2,
+      "person": 1
+    }
+  },
+  "station": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "station_name": 1
+    }
+  },
+  "event": {
+    "precision": 0.9285714285714286,
+    "recall": 0.9512195121951219,
+    "f1-score": 0.9397590361445782,
+    "support": 41,
+    "confused_with": {}
+  },
+  "child": {
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3333333333333333,
+    "support": 6,
+    "confused_with": {
+      "phone_no": 4
+    }
+  },
+  "ticket": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "person": 2,
+      "pnr_num": 1
+    }
+  },
+  "place": {
+    "precision": 0.9736842105263158,
+    "recall": 1.0,
+    "f1-score": 0.9866666666666666,
+    "support": 37,
+    "confused_with": {}
+  },
+  "mail": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "date-time": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "date_time": 2
+    }
+  },
+  "train_date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "person": {
+    "precision": 0.6176470588235294,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.75,
+    "support": 22,
+    "confused_with": {
+      "pnr_num": 1
+    }
+  },
+  "quota_code": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "class_num": 1
+    }
+  },
+  "adult": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "child": 2,
+      "phone_no": 2
+    }
+  },
+  "category": {
+    "precision": 0.9459459459459459,
+    "recall": 0.7954545454545454,
+    "f1-score": 0.8641975308641975,
+    "support": 44,
+    "confused_with": {}
+  },
+  "train_num": {
+    "precision": 0.25,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2,
+    "support": 6,
+    "confused_with": {
+      "phone_no": 4,
+      "person": 1
+    }
+  },
+  "date-date_time": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {
+      "date_time": 1
+    }
+  },
+  "cuisine": {
+    "precision": 0.9130434782608695,
+    "recall": 0.8235294117647058,
+    "f1-score": 0.865979381443299,
+    "support": 51,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.7910447761194029,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7507082152974505,
+    "support": 371
+  },
+  "macro avg": {
+    "precision": 0.46559039993014956,
+    "recall": 0.44278593597668703,
+    "f1-score": 0.4463528968328462,
+    "support": 371
+  },
+  "weighted avg": {
+    "precision": 0.7426834274587616,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7205247455722492,
+    "support": 371
+  }
+}

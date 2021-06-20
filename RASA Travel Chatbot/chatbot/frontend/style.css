@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+html, body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffbc0003;
+  height: 100%;
+  margin: 0;
+}
+
+#chatcontainer {
+  border-radius: 10px;
+  border: 5px solid rgba(115, 173, 33, 0.24);
+  position: relative;
+  list-style: none;
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  height: 500px;
+  overflow: scroll
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column
+  align-items: flex-start
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.message {
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  max-width: 300px;
+  border-radius: 32px;
+  padding: 15px 28px;
+  margin: 16px 12px;
+  letter-spacing: 1px;
+}
+
+.bot-message {
+  background-color: #c7eafc
+}
+.human-message {
+  background-color: #c487de99
+}
+
+/****Scrollbar****/
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+#messageinput {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+input {
+  outline: none;
+  box-sizing: border-box;
+  width: 95%;
+  height: 54px;
+  line-height: 55px;
+  border-radius: 32px;
+  padding: 0 28px;
+  margin: 16px 12px;
+  letter-spacing: 1px;
+  border: none;
+  background: #e1e5e9;
+  caret-color: goldenrod;
+  font-size: large;
+}
+
+#mic {
+  border: none;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  margin: 16px 12px;
+  outline: 0;
+  background-color: #039be5;
+  color: #fff;
+}

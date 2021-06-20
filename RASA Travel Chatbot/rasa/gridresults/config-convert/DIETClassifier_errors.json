@@ -1,0 +1,2342 @@
+[
+  {
+    "text": "Resepsiyon 24 saat a\u00e7\u0131k m\u0131?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.5711154937744141,
+        "value": "24",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "12027 numaral\u0131 tren i\u00e7in tren rotas\u0131n\u0131 bilmek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "12027",
+        "entity": "train_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9220762252807617,
+        "value": "12027",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "85111 ad\u0131 nedir",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "85111",
+        "entity": "stationcode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8561145067214966,
+        "value": "85111",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "85111 neyin \u00e7a\u011fr\u0131ld\u0131\u011f\u0131n\u0131 bilmem gerekiyor",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "85111",
+        "entity": "stationcode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9088369011878967,
+        "value": "85111",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u015eimdi kaybolun!",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "date-time",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9381381273269653,
+        "value": "\u015eimdi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kanka",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5799071192741394,
+        "value": "Kanka",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "22 ya\u015f\u0131nday\u0131m",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "22",
+        "entity": "age"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.8121839165687561,
+        "value": "22",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ya\u015f 22",
+    "entities": [
+      {
+        "start": 4,
+        "end": 6,
+        "value": "22",
+        "entity": "age"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.3129812180995941,
+        "value": "22",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130stanbul'da",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "\u0130stanbul'da",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9484327435493469,
+        "value": "\u0130stanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bu ay i\u00e7in takvimde neler var?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Bu ay",
+        "entity": "date-time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "SL s\u0131n\u0131f\u0131d\u0131r",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "SL",
+        "entity": "class_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ankara'ya",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Ankara",
+        "entity": "destination_city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9934374690055847,
+        "value": "Ankara",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130zmir",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "\u0130zmir",
+        "entity": "destination_city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9823806285858154,
+        "value": "\u0130zmir",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Var\u0131\u015f noktas\u0131 Adana",
+    "entities": [
+      {
+        "start": 14,
+        "end": 19,
+        "value": "Adana",
+        "entity": "destination_city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "USKUDAR'a do\u011fru",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "USKUDAR",
+        "entity": "station"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "BAKIRK\u00d6Y",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "BAKIRK\u00d6Y",
+        "entity": "station"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[15.03.2020] tarihinde(flight_date)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "flight_date",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9951024055480957,
+        "value": "[15.03.2020",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeti\u015fkinler 6 ki\u015fidir",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "6",
+        "entity": "adult"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.362103670835495,
+        "value": "6",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "adult"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.3159346282482147,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u00c7ocuk say\u0131s\u0131 4",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "4",
+        "entity": "child"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infant",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.42728352546691895,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "entity": "child"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.3159346282482147,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "0 bebek",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "0",
+        "entity": "infant"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.3643506169319153,
+        "value": "0",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2 bebek var",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "infant"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.55586177110672,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "PNR 1122334455",
+    "entities": [
+      {
+        "start": 4,
+        "end": 14,
+        "value": "1122334455",
+        "entity": "pnr_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 4,
+        "end": 14,
+        "confidence_entity": 0.3699077069759369,
+        "value": "1122334455",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "PNR kodu 6527340784",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "6527340784",
+        "entity": "pnr_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "infant",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.23924441635608673,
+        "value": "6527340784",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "TQ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "TQ",
+        "entity": "quota_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Istanbul",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Istanbul",
+        "entity": "source_city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9319656491279602,
+        "value": "Istanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ankara'dan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Ankara'dan",
+        "entity": "source_city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9935430288314819,
+        "value": "Ankara",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 istasyonu Marmaray Sirkeci",
+    "entities": [
+      {
+        "start": 20,
+        "end": 36,
+        "value": "Marmaray Sirkeci",
+        "entity": "station_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Yenikap\u0131'da",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Yenikap\u0131",
+        "entity": "station_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 noktas\u0131 Marmaray Florya",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "Marmaray Florya",
+        "entity": "station_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "PUNE",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "PUNE",
+        "entity": "station_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0130stasyon kodu MAS",
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "value": "MAS",
+        "entity": "station_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Trenin numaras\u0131 22691",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "22691",
+        "entity": "train_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.3924938142299652,
+        "value": "22691",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130\u015fte trenin numaras\u0131: 22626",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "22626",
+        "entity": "train_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.31391316652297974,
+        "value": "22626",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sezen Aksu Konser Gecesi etkinli\u011fini se\u00e7mek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 24,
+        "value": "Sezen Aksu Konser Gecesi",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9922693967819214,
+        "value": "Sezen Aksu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9952516555786133,
+        "value": "Gecesi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u00fctfen Sezen Aksu Konser Gecesi etkinli\u011fine gidin",
+    "entities": [
+      {
+        "start": 7,
+        "end": 31,
+        "value": "Sezen Aksu Konser Gecesi",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.99100261926651,
+        "value": "Sezen Aksu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9946422576904297,
+        "value": "Gecesi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2 tane birlet olacakt\u0131r",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "ticket"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.9263419508934021,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1 tane bilet",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "ticket"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.8321844935417175,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "teslimat yapabilen restoranlar\u0131 g\u00f6rmek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "teslimat yapabilen",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9966500401496887,
+        "value": "teslimat",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Uygun fiyatl\u0131 ma\u011fazalar\u0131n\u0131 g\u00f6rmek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Uygun fiyatl\u0131",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hangilerinin paket servisi oldu\u011funu g\u00f6ster",
+    "entities": [
+      {
+        "start": 13,
+        "end": 26,
+        "value": "paket servisi",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9676006436347961,
+        "value": "paket",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hangisinde paket servisi oldu\u011funu g\u00f6ster",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "paket servisi",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.9676249623298645,
+        "value": "paket",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u00fctfen bana cep dostu olanlar\u0131 bulun",
+    "entities": [
+      {
+        "start": 12,
+        "end": 21,
+        "value": "cep dostu",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "paket servisi olanlar\u0131 denemek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "paket servisi",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8930383920669556,
+        "value": "paket",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "barlar\u0131 tercih edece\u011fim",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "bar",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00fctfen bana kuzey hindistan yeme\u011fi bul",
+    "entities": [
+      {
+        "start": 12,
+        "end": 27,
+        "value": "kuzey hindistan",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.9878693222999573,
+        "value": "hindistan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kuzey hindistan yemeklerini yiyece\u011fim",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "kuzey hindistan",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 6,
+        "end": 15,
+        "confidence_entity": 0.9901278614997864,
+        "value": "hindistan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kuzey Hindistan yemeyi tercih edece\u011fim",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Kuzey Hindistan",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 6,
+        "end": 15,
+        "confidence_entity": 0.9947478175163269,
+        "value": "Hindistan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "[Hint](cuisine tercih edece\u011fim",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 1,
+        "end": 14,
+        "confidence_entity": 0.9134618639945984,
+        "value": "Hint](cuisine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "[Hint](cuisine l\u00fctfen",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 1,
+        "end": 14,
+        "confidence_entity": 0.9256150126457214,
+        "value": "Hint](cuisine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pizza yemeyi \u00e7ok isterim",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": " italyan",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00fctfen yar\u0131n i\u00e7in yer ay\u0131rt\u0131n",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "date_time",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9671919941902161,
+        "value": "yar\u0131n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yar\u0131n L\u00fctfen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "yar\u0131n",
+        "entity": "date_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "date-time",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.4988187551498413,
+        "value": "yar\u0131n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yar\u0131n ak\u015fam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "yar\u0131n ak\u015fam",
+        "entity": "date-date_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "date_time",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.7311301231384277,
+        "value": "yar\u0131n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yar\u0131ndan sonraki g\u00fcn l\u00fctfen",
+    "entities": [
+      {
+        "start": 0,
+        "end": 20,
+        "value": "Yar\u0131ndan sonraki g\u00fcn",
+        "entity": "date_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "date_time",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.4456813931465149,
+        "value": "Yar\u0131ndan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "1 Ocak 2020 i\u00e7in rezervasyon yap\u0131n",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "1 Ocak 2020",
+        "entity": "date_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.5292180180549622,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.4874992370605469,
+        "value": "2020",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Taksim'e yak\u0131n\u0131m",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Taksim",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9878952503204346,
+        "value": "Taksim",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "class_num",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.606006383895874,
+        "value": "e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Buras\u0131 Taksim'e yak\u0131n g\u00f6r\u00fcn\u00fcyor",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "Taksim",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9764145612716675,
+        "value": "Taksim",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "class_num",
+        "start": 14,
+        "end": 15,
+        "confidence_entity": 0.5852459073066711,
+        "value": "e",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Taksim'da Tay yiyece\u011fim",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Taksim",
+        "entity": "place"
+      },
+      {
+        "start": 10,
+        "end": 13,
+        "value": "Tay",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9868811368942261,
+        "value": "Taksim",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Evet, l\u00fctfen not edin 8724537891",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "8724537891",
+        "entity": "phone_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.41532742977142334,
+        "value": "8724537891",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u00fctfen 1111111111 ile rezervasyon yap\u0131n",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "1111111111",
+        "entity": "phone_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.7385748624801636,
+        "value": "1111111111",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mutfa\u011f\u0131mdan emin de\u011filim",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.5748523473739624,
+        "value": "Mutfa\u011f\u0131mdan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mutfa\u011f\u0131 bilmiyorum",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9936404824256897,
+        "value": "Mutfa\u011f\u0131",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bana Ankara'da otel ayarlayabilir misin?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "Ankara",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source_city",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.5194172859191895,
+        "value": "Ankara",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "3",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "3",
+        "entity": "person"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.3921661078929901,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ne zaman kahvalt\u0131 servisi yapacaks\u0131n\u0131z?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.9986575841903687,
+        "value": "servisi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "334455667788'in PNR durumu nedir",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "334455667788",
+        "entity": "pnr_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.26430457830429077,
+        "value": "334455667788'in",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "334455667788 PNR durumunu sa\u011flay\u0131n",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "334455667788",
+        "entity": "pnr_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.33508995175361633,
+        "value": "334455667788",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "G\u00fcnayd\u0131n",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "cuisine",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.536467432975769,
+        "value": "G\u00fcnayd\u0131n",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hey dostum",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 4,
+        "end": 10,
+        "confidence_entity": 0.991084098815918,
+        "value": "dostum",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "22",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "22",
+        "entity": "age"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.3921661078929901,
+        "value": "22",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130stanbul'dan hareket",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "\u0130stanbul",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.9575834274291992,
+        "value": "\u0130stanbul'dan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130stanbul'da saat ka\u00e7?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "\u0130stanbul'da",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9776021838188171,
+        "value": "\u0130stanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bug\u00fcn i\u00e7in hangi etkinlikler planland\u0131?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "Bug\u00fcn",
+        "entity": "date-time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "so\u011fuk \u015fimdi",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "so\u011fuk",
+        "entity": "weather"
+      },
+      {
+        "start": 6,
+        "end": 11,
+        "value": "\u015fimdi",
+        "entity": "date-time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "weather",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9937335848808289,
+        "value": "so\u011fuk",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130stanbul'da",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "\u0130stanbul",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 11,
+        "confidence_entity": 0.9078822731971741,
+        "value": "\u0130stanbul'da",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yar\u0131n'in \u0130stanbul hava durumuna ihtiyac\u0131m var",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "yar\u0131n",
+        "entity": "date-time"
+      },
+      {
+        "start": 9,
+        "end": 17,
+        "value": "\u0130stanbul",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "date_time",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8464738726615906,
+        "value": "yar\u0131n",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "city",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.985415518283844,
+        "value": "\u0130stanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "yar\u0131n \u0130stanbul i\u00e7in hava durumu",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "yar\u0131n",
+        "entity": "date-time"
+      },
+      {
+        "start": 6,
+        "end": 14,
+        "value": "\u0130stanbul",
+        "entity": "city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "date_time",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9101160764694214,
+        "value": "yar\u0131n",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "city",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9819808602333069,
+        "value": "\u0130stanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u0130stanbul bug\u00fcn hava s\u0131cakl\u0131\u011f\u0131 ka\u00e7",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "\u0130stanbul",
+        "entity": "city"
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "value": "bug\u00fcn",
+        "entity": "date_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.978617250919342,
+        "value": "\u0130stanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "S\u0131n\u0131f kodu CC",
+    "entities": [
+      {
+        "start": 11,
+        "end": 13,
+        "value": "CC",
+        "entity": "class_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u0130stanbul'a do\u011fru",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "\u0130stanbul",
+        "entity": "destination_city"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "city",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9774237275123596,
+        "value": "\u0130stanbul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 noktas\u0131 Malatya",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "Malatya",
+        "entity": "destination_city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Var\u0131\u015f istasyonu Kad\u0131k\u00f6y",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "Kad\u0131k\u00f6y",
+        "entity": "station"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Var\u0131\u015f noktas\u0131 MASLAK",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "MASLAK",
+        "entity": "station"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "1 yeti\u015fkin",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "1",
+        "entity": "adult"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.24666999280452728,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeti\u015fkin say\u0131s\u0131 5",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "5",
+        "entity": "adult"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.5909737944602966,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2 \u00e7ocuk var",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "2",
+        "entity": "child"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.23844316601753235,
+        "value": "2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\u00c7ocuklar 5 ki\u015fidir",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "5",
+        "entity": "child"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "adult",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.2850693166255951,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yaln\u0131zca 7 \u00e7ocuk var",
+    "entities": [
+      {
+        "start": 9,
+        "end": 10,
+        "value": "7",
+        "entity": "child"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 9,
+        "end": 10,
+        "confidence_entity": 0.25261980295181274,
+        "value": "7",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bebek say\u0131s\u0131 4",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "4",
+        "entity": "infant"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.4713427722454071,
+        "value": "4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bebek say\u0131s\u0131 3 ki\u015fidir",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "3",
+        "entity": "infant"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.2516561448574066,
+        "value": "3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "2233445566",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "2233445566",
+        "entity": "pnr_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.3921661078929901,
+        "value": "2233445566",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Numara 0987654321",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "0987654321",
+        "entity": "pnr_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.5903950333595276,
+        "value": "0987654321",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Oturma say\u0131s\u0131 E ekonomi s\u0131n\u0131f\u0131na aittir",
+    "entities": [
+      {
+        "start": 14,
+        "end": 15,
+        "value": "E",
+        "entity": "class_num"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 noktas\u0131 Bursa \u015fehridir",
+    "entities": [
+      {
+        "start": 18,
+        "end": 23,
+        "value": "Bursa",
+        "entity": "source_city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 \u015fehri Bursa",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "Bursa",
+        "entity": "source_city"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "\u00dcsk\u00fcdar'dan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "\u00dcsk\u00fcdar",
+        "entity": "station_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "source_city",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9671510457992554,
+        "value": "dan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kad\u0131k\u00f6y",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Kad\u0131k\u00f6y",
+        "entity": "station_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "CSMT'den",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "CSMT",
+        "entity": "station_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Kod TKD",
+    "entities": [
+      {
+        "start": 4,
+        "end": 7,
+        "value": "TKD",
+        "entity": "station_code"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "16590",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "16590",
+        "entity": "train_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.3921661078929901,
+        "value": "16590",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tren numaran\u0131z 12123",
+    "entities": [
+      {
+        "start": 15,
+        "end": 20,
+        "value": "12123",
+        "entity": "train_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.5616904497146606,
+        "value": "12123",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tren 22626",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "22626",
+        "entity": "train_num"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "phone_no",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.3657341003417969,
+        "value": "22626",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Konser",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9887825846672058,
+        "value": "Konser",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sezen Aksu konserine gitmek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Sezen Aksu",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "event",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.7470090985298157,
+        "value": "Sezen Aksu konserine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u00fctfen Cem Y\u0131lmaz'\u0131 se\u00e7er misiniz?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "Cem Y\u0131lmaz",
+        "entity": "event"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "5",
+    "entities": [
+      {
+        "start": 0,
+        "end": 1,
+        "value": "5",
+        "entity": "ticket"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 0,
+        "end": 1,
+        "confidence_entity": 0.3921661078929901,
+        "value": "5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "eposta adresim test@hotmail.com",
+    "entities": [
+      {
+        "start": 15,
+        "end": 31,
+        "value": "test@hotmail.com",
+        "entity": "mail"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bana Taksim'de birka\u00e7 restoran bul",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "Taksim",
+        "entity": "location"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9989287257194519,
+        "value": "Taksim",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bana hangisinin teslim etmeyi sa\u011flad\u0131\u011f\u0131n\u0131 \u00f6\u011frenin",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "teslim etmeyi",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bana Paket Servisi, Yeme\u011fe \u00c7\u0131kma ve Gece Kul\u00fcb\u00fc sa\u011flayan baz\u0131 restoranlar\u0131 bulun",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "value": "Paket Servisi",
+        "entity": "category"
+      },
+      {
+        "start": 20,
+        "end": 32,
+        "value": "Yeme\u011fe \u00c7\u0131kma",
+        "entity": "category"
+      },
+      {
+        "start": 36,
+        "end": 47,
+        "value": "Gece Kul\u00fcb\u00fc",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 5,
+        "end": 18,
+        "confidence_entity": 0.9978367686271667,
+        "value": "Paket Servisi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 36,
+        "end": 47,
+        "confidence_entity": 0.9729698896408081,
+        "value": "Gece Kul\u00fcb\u00fc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yeme\u011fe \u00e7\u0131kmak istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "Yeme\u011fe \u00e7\u0131kmak",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bar'a gitmek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 3,
+        "value": "Bar",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "gece hayat\u0131 olanlar\u0131 g\u00f6rmek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "gece hayat\u0131",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9934908747673035,
+        "value": "gece",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "L\u00fctfen bana biraz Tayland yeme\u011fi verin",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "Tayland",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bana mo\u011fol yeme\u011fi ver",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "mo\u011fol",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Bana dondurma ver",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "dondurma",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "L\u00fctfen 10 Ekim 2019 i\u00e7in yer ay\u0131rt\u0131n",
+    "entities": [
+      {
+        "start": 7,
+        "end": 19,
+        "value": "10 Ekim 2019",
+        "entity": "date_time"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 7,
+        "end": 9,
+        "confidence_entity": 0.3885626792907715,
+        "value": "10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "person",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.4260137677192688,
+        "value": "2019",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Yaln\u0131zca bug\u00fcn i\u00e7in ay\u0131rt\u0131n",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "bug\u00fcn",
+        "entity": "date_time"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Taksim'nda chinese yemekleri",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Taksim",
+        "entity": "place"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "chinese",
+        "entity": "cuisine"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9993295669555664,
+        "value": "Taksim",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Taksim\u2019de \u00c7in mutfa\u011f\u0131ndan bir \u015feyler yemek istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Taksim",
+        "entity": "place"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "place",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.999332845211029,
+        "value": "Taksim",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "cuisine",
+        "start": 10,
+        "end": 25,
+        "confidence_entity": 0.6646991968154907,
+        "value": "\u00c7in mutfa\u011f\u0131ndan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "9810293859 ileti\u015fim numaras\u0131yla rezervasyon yapmak istiyorum",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "9810293859",
+        "entity": "phone_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "person",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6791272163391113,
+        "value": "9810293859",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "9711236610",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "9711236610",
+        "entity": "phone_no"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "child",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.3921661078929901,
+        "value": "9711236610",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tamam dostum",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 6,
+        "end": 12,
+        "confidence_entity": 0.991330623626709,
+        "value": "dostum",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

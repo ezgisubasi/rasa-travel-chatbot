@@ -1,0 +1,2202 @@
+[
+  {
+    "text": "Otel rezarvasyonu yapt\u0131rmak istiyorum",
+    "intent": "enquire_hotel_details",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.16813430190086365
+    }
+  },
+  {
+    "text": "Istanbul'da otel ar\u0131yorum",
+    "intent": "desired_city",
+    "intent_prediction": {
+      "name": "enquire_hotel_details",
+      "confidence": 0.3920479118824005
+    }
+  },
+  {
+    "text": "Izmir'de otel rezervasyonu yapt\u0131rmak istiyorum",
+    "intent": "desired_city",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.24046070873737335
+    }
+  },
+  {
+    "text": "2 ki\u015filik rezervasyon yapt\u0131rmak istiyorum",
+    "intent": "desired_room",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.7488624453544617
+    }
+  },
+  {
+    "text": "1 ki\u015filik oda",
+    "intent": "desired_room",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.6853039860725403
+    }
+  },
+  {
+    "text": "rezervasyonu iptal etmek i\u00e7in ne yapmal\u0131y\u0131m?",
+    "intent": "faqcancellationpolicy",
+    "intent_prediction": {
+      "name": "weather",
+      "confidence": 0.4237302839756012
+    }
+  },
+  {
+    "text": "Bir otelin giri\u015f saati nedir?",
+    "intent": "faqcheckin",
+    "intent_prediction": {
+      "name": "enquire_train_station_name",
+      "confidence": 0.20638850331306458
+    }
+  },
+  {
+    "text": "Zaman\u0131nda kontrol et?",
+    "intent": "faqcheckin",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2636335790157318
+    }
+  },
+  {
+    "text": "check-in ya\u015f\u0131",
+    "intent": "faqcheckinage",
+    "intent_prediction": {
+      "name": "faqcheckin",
+      "confidence": 0.7591884136199951
+    }
+  },
+  {
+    "text": "erken check-in m\u00fcmk\u00fcn m\u00fc?",
+    "intent": "faqearlycheckin",
+    "intent_prediction": {
+      "name": "inform_train_date",
+      "confidence": 0.15505608916282654
+    }
+  },
+  {
+    "text": "ge\u00e7 check-in",
+    "intent": "faqlatecheckin",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.4847607910633087
+    }
+  },
+  {
+    "text": "ge\u00e7 check-in i\u00e7in izin verir misiniz?",
+    "intent": "faqlatecheckin",
+    "intent_prediction": {
+      "name": "faqcheckinage",
+      "confidence": 0.4376367926597595
+    }
+  },
+  {
+    "text": "ge\u00e7 check-out m\u00fcmk\u00fcn m\u00fc",
+    "intent": "faqlatecheckout",
+    "intent_prediction": {
+      "name": "inform_train_date",
+      "confidence": 0.3727048337459564
+    }
+  },
+  {
+    "text": "ne zaman kahvalt\u0131 servisi yapacaks\u0131n\u0131z?",
+    "intent": "faqbreakfasttime",
+    "intent_prediction": {
+      "name": "telling_cuisine",
+      "confidence": 0.5159782767295837
+    }
+  },
+  {
+    "text": "kahvalt\u0131 i\u00e7in saat ka\u00e7?",
+    "intent": "faqbreakfasttime",
+    "intent_prediction": {
+      "name": "telling_cuisine",
+      "confidence": 0.2900223731994629
+    }
+  },
+  {
+    "text": "geri \u00f6deme politikas\u0131 nedir",
+    "intent": "faqrefundable",
+    "intent_prediction": {
+      "name": "faqcancellationpolicy",
+      "confidence": 0.5255156755447388
+    }
+  },
+  {
+    "text": "Park \u00fccreti ne kadar?",
+    "intent": "faqparkingcost",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4746014475822449
+    }
+  },
+  {
+    "text": "odalar\u0131n k\u0131smen iptal edilmesi m\u00fcmk\u00fcn m\u00fc",
+    "intent": "faqpartialcancel",
+    "intent_prediction": {
+      "name": "weather",
+      "confidence": 0.21202696859836578
+    }
+  },
+  {
+    "text": "Otel rezervasyonumu k\u0131smen iptal edebilir miyim?",
+    "intent": "faqpartialcancel",
+    "intent_prediction": {
+      "name": "faqpetpolicy",
+      "confidence": 0.16564008593559265
+    }
+  },
+  {
+    "text": "16/08/2021 tarihine rezerve etmek istiyorum",
+    "intent": "otel_date_start",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.40517204999923706
+    }
+  },
+  {
+    "text": "15/11/2021 tarihi uygun mudur?",
+    "intent": "otel_date_start",
+    "intent_prediction": {
+      "name": "otel_date_end",
+      "confidence": 0.4181279242038727
+    }
+  },
+  {
+    "text": "16/08/2021 tarihine kadar kalaca\u011f\u0131m",
+    "intent": "otel_date_end",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.44835883378982544
+    }
+  },
+  {
+    "text": "16/08/2021 tarihine kadar rezerve edece\u011fim",
+    "intent": "otel_date_end",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.38216668367385864
+    }
+  },
+  {
+    "text": "17/11/2021 tarihine kadar",
+    "intent": "otel_date_end",
+    "intent_prediction": {
+      "name": "otel_date_start",
+      "confidence": 0.35376420617103577
+    }
+  },
+  {
+    "text": "rezervasyonumu de\u011fi\u015ftirebilir miyim",
+    "intent": "faqmodifyreservation",
+    "intent_prediction": {
+      "name": "got_email",
+      "confidence": 0.3394109606742859
+    }
+  },
+  {
+    "text": "Bir g\u00f6r\u00fc\u015fme ayarlamak istiyorum",
+    "intent": "faqmeetingroom",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.25400403141975403
+    }
+  },
+  {
+    "text": "bana g\u00fcvenlik hizmetlerinden bahset",
+    "intent": "sssecurity",
+    "intent_prediction": {
+      "name": "telling_cuisine",
+      "confidence": 0.3974635601043701
+    }
+  },
+  {
+    "text": "valizlerimi saklayabilir misin?",
+    "intent": "faqluggage",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3544870913028717
+    }
+  },
+  {
+    "text": "Telefon numaran nedir?",
+    "intent": "faqcontactnumber",
+    "intent_prediction": {
+      "name": "faqnearestairport",
+      "confidence": 0.1479264497756958
+    }
+  },
+  {
+    "text": "Resepsiyonun ileti\u015fim numaras\u0131 nedir?",
+    "intent": "faqcontactnumber",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.24486352503299713
+    }
+  },
+  {
+    "text": "334455667788'in PNR durumu nedir",
+    "intent": "enquire_pnr",
+    "intent_prediction": {
+      "name": "inform_pnr",
+      "confidence": 0.4508565664291382
+    }
+  },
+  {
+    "text": "PNR durumum nedir?",
+    "intent": "enquire_pnr",
+    "intent_prediction": {
+      "name": "inform_pnr",
+      "confidence": 0.3314664661884308
+    }
+  },
+  {
+    "text": "\u0130ptal edilen trenleri bilmem gerekiyor",
+    "intent": "enquire_train_cancel",
+    "intent_prediction": {
+      "name": "faqpetpolicy",
+      "confidence": 0.2518438696861267
+    }
+  },
+  {
+    "text": "Tren kotas\u0131 bilgisine ihtiyac\u0131m var",
+    "intent": "enquire_train_quota_info",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.13818533718585968
+    }
+  },
+  {
+    "text": "Tren rotalar\u0131n\u0131 kontrol etmek istiyorum",
+    "intent": "enquire_train_route",
+    "intent_prediction": {
+      "name": "faqparking",
+      "confidence": 0.18521744012832642
+    }
+  },
+  {
+    "text": "Tren g\u00fczergah bilgilerine ihtiyac\u0131m var",
+    "intent": "enquire_train_route",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.20799894630908966
+    }
+  },
+  {
+    "text": "Herhangi bir koltuk olup olmad\u0131\u011f\u0131n\u0131 kontrol etmek istiyorum",
+    "intent": "enquire_train_seat",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.30172133445739746
+    }
+  },
+  {
+    "text": "Bulunan koltuklar\u0131n bulunmas\u0131 gerekiyor",
+    "intent": "enquire_train_seat",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.25103759765625
+    }
+  },
+  {
+    "text": "\u0130stasyonlar aras\u0131ndaki trenler hakk\u0131nda bilgi edinmek istiyorum",
+    "intent": "enquire_train_station",
+    "intent_prediction": {
+      "name": "got_total_tickets",
+      "confidence": 0.26130667328834534
+    }
+  },
+  {
+    "text": "Bir istasyon ad\u0131na ihtiyac\u0131m var",
+    "intent": "enquire_train_station_name",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.1780545860528946
+    }
+  },
+  {
+    "text": "85111 neyin \u00e7a\u011fr\u0131ld\u0131\u011f\u0131n\u0131 bilmem gerekiyor",
+    "intent": "enquire_train_station_name",
+    "intent_prediction": {
+      "name": "telling_datetime",
+      "confidence": 0.29349058866500854
+    }
+  },
+  {
+    "text": "Tren dersi bilgilerine ihtiyac\u0131m var",
+    "intent": "enquire_trains_class_info",
+    "intent_prediction": {
+      "name": "enquire_train_quota_info",
+      "confidence": 0.253830224275589
+    }
+  },
+  {
+    "text": "Tamam yap\u0131ld\u0131! Te\u015fekk\u00fcrler!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5955541729927063
+    }
+  },
+  {
+    "text": "Tamam yap\u0131ld\u0131",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9728323817253113
+    }
+  },
+  {
+    "text": "Tamam g\u00f6r\u00fc\u015f\u00fcr\u00fcz",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.43320176005363464
+    }
+  },
+  {
+    "text": "Tamam kapat",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9715682864189148
+    }
+  },
+  {
+    "text": "\u015eimdi kaybolun!",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "faqchildrenage",
+      "confidence": 0.14615482091903687
+    }
+  },
+  {
+    "text": "G\u00fcnayd\u0131n",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.4715014100074768
+    }
+  },
+  {
+    "text": "umar\u0131m iyisindir",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.3323710262775421
+    }
+  },
+  {
+    "text": "m\u00fckemmel",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9981908798217773
+    }
+  },
+  {
+    "text": "inan\u0131lmaz",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9312307238578796
+    }
+  },
+  {
+    "text": "ola\u011fan\u00fcst\u00fc",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "inform_source_airport",
+      "confidence": 0.32322463393211365
+    }
+  },
+  {
+    "text": "\u00e7ok iyi hissediyorum",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5149266123771667
+    }
+  },
+  {
+    "text": "mutsuz",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7347160577774048
+    }
+  },
+  {
+    "text": "\u00e7ok iyi de\u011fil",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5570268630981445
+    }
+  },
+  {
+    "text": "\u00e7ok \u00fcz\u00fcc\u00fc",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.44678795337677
+    }
+  },
+  {
+    "text": "22",
+    "intent": "inform_age",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4023953974246979
+    }
+  },
+  {
+    "text": "\u0130stanbul'dan hareket",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "weather_address",
+      "confidence": 0.6111456751823425
+    }
+  },
+  {
+    "text": "\u0130stanbul'da",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "weather_address",
+      "confidence": 0.6157379746437073
+    }
+  },
+  {
+    "text": "\u015eehir \u0130stanbul",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "weather_address",
+      "confidence": 0.372211217880249
+    }
+  },
+  {
+    "text": "Tam olarak saat nedir?",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4199683666229248
+    }
+  },
+  {
+    "text": "tiyatro'ya  gitmek istiyorum",
+    "intent": "ask_which_events",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.46988046169281006
+    }
+  },
+  {
+    "text": "s\u0131cakl\u0131k?",
+    "intent": "weather",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.20308849215507507
+    }
+  },
+  {
+    "text": "\u0130stanbul'da s\u0131cakl\u0131k ka\u00e7",
+    "intent": "weather_address",
+    "intent_prediction": {
+      "name": "ask_time",
+      "confidence": 0.48505279421806335
+    }
+  },
+  {
+    "text": "\u0130stanbul'da yar\u0131n hava nas\u0131l",
+    "intent": "weather_address_date_time",
+    "intent_prediction": {
+      "name": "weather_address",
+      "confidence": 0.39322811365127563
+    }
+  },
+  {
+    "text": "\u0130stanbul bug\u00fcn hava s\u0131cakl\u0131\u011f\u0131 ka\u00e7",
+    "intent": "weather_address_date_time",
+    "intent_prediction": {
+      "name": "weather",
+      "confidence": 0.5566753149032593
+    }
+  },
+  {
+    "text": "3A",
+    "intent": "inform_class_code",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9153409004211426
+    }
+  },
+  {
+    "text": "\u0130stanbul'a do\u011fru",
+    "intent": "inform_destination_airport",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6589468121528625
+    }
+  },
+  {
+    "text": "Ankara'ya",
+    "intent": "inform_destination_airport",
+    "intent_prediction": {
+      "name": "inform_class_code",
+      "confidence": 0.24502956867218018
+    }
+  },
+  {
+    "text": "USKUDAR'a do\u011fru",
+    "intent": "inform_destination_station_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9322562217712402
+    }
+  },
+  {
+    "text": "Var\u0131\u015f noktas\u0131 MASLAK",
+    "intent": "inform_destination_station_name",
+    "intent_prediction": {
+      "name": "inform_class_code",
+      "confidence": 0.2498674988746643
+    }
+  },
+  {
+    "text": "Yeti\u015fkinler 6 ki\u015fidir",
+    "intent": "inform_no_of_adults",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.2908720374107361
+    }
+  },
+  {
+    "text": "2",
+    "intent": "inform_no_of_adults",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4023953974246979
+    }
+  },
+  {
+    "text": "Bebek say\u0131s\u0131 4",
+    "intent": "inform_no_of_infants",
+    "intent_prediction": {
+      "name": "telling_datetime",
+      "confidence": 0.2640678882598877
+    }
+  },
+  {
+    "text": "Bebek say\u0131s\u0131 3 ki\u015fidir",
+    "intent": "inform_no_of_infants",
+    "intent_prediction": {
+      "name": "inform_no_of_children",
+      "confidence": 0.3511369526386261
+    }
+  },
+  {
+    "text": "2233445566",
+    "intent": "inform_pnr",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4023953974246979
+    }
+  },
+  {
+    "text": "Numara 0987654321",
+    "intent": "inform_pnr",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.6136469841003418
+    }
+  },
+  {
+    "text": "TQ",
+    "intent": "inform_quota_code",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8752086758613586
+    }
+  },
+  {
+    "text": "E s\u0131n\u0131f\u0131",
+    "intent": "inform_seating_class",
+    "intent_prediction": {
+      "name": "inform_class_code",
+      "confidence": 0.37307217717170715
+    }
+  },
+  {
+    "text": "B",
+    "intent": "inform_seating_class",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.753851592540741
+    }
+  },
+  {
+    "text": "Ankara'dan",
+    "intent": "inform_source_airport",
+    "intent_prediction": {
+      "name": "inform_source_station_name",
+      "confidence": 0.23774048686027527
+    }
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 istasyonu Marmaray Sirkeci",
+    "intent": "inform_source_station_name",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.2099403291940689
+    }
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 noktas\u0131 Marmaray Florya",
+    "intent": "inform_source_station_name",
+    "intent_prediction": {
+      "name": "inform_destination_airport",
+      "confidence": 0.5523179173469543
+    }
+  },
+  {
+    "text": "PUNE",
+    "intent": "inform_station_code",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9016571044921875
+    }
+  },
+  {
+    "text": "\u0130stasyon kodu MAS",
+    "intent": "inform_station_code",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.3726746439933777
+    }
+  },
+  {
+    "text": "Trenin numaras\u0131 22691",
+    "intent": "inform_train_number",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4559188187122345
+    }
+  },
+  {
+    "text": "16590",
+    "intent": "inform_train_number",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4023953974246979
+    }
+  },
+  {
+    "text": "\u0130\u015fte trenin numaras\u0131: 22626",
+    "intent": "inform_train_number",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.41276076436042786
+    }
+  },
+  {
+    "text": "Bakal\u0131m",
+    "intent": "main_menu",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.766873300075531
+    }
+  },
+  {
+    "text": "Bana hangi etkinlikleri \u00f6nerebilirsiniz?",
+    "intent": "activities_offered",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.9636926651000977
+    }
+  },
+  {
+    "text": "\u0130stanbul Hakk\u0131nda",
+    "intent": "about_istanbul",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.3311522603034973
+    }
+  },
+  {
+    "text": "\u0130stanbul",
+    "intent": "about_istanbul",
+    "intent_prediction": {
+      "name": "weather_address",
+      "confidence": 0.5018711090087891
+    }
+  },
+  {
+    "text": "Di\u011fer aktiviteler",
+    "intent": "other_activities",
+    "intent_prediction": {
+      "name": "faqcontactnumber",
+      "confidence": 0.36535099148750305
+    }
+  },
+  {
+    "text": "Di\u011fer aktiviteler neler?",
+    "intent": "other_activities",
+    "intent_prediction": {
+      "name": "enquire_train_station",
+      "confidence": 0.21453553438186646
+    }
+  },
+  {
+    "text": "Aktivite listesini g\u00f6rmek istiyorum",
+    "intent": "selected_list",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.6026225090026855
+    }
+  },
+  {
+    "text": "T\u00fcm aktiviteleri g\u00f6r\u00fcnt\u00fcleyin",
+    "intent": "selected_list",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.16660460829734802
+    }
+  },
+  {
+    "text": "T\u00fcm etkinliklerin listesini g\u00f6rebilir miyim?",
+    "intent": "selected_list",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.3452766537666321
+    }
+  },
+  {
+    "text": "Konsere gitmek istiyorum",
+    "intent": "desired_event",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.3248502016067505
+    }
+  },
+  {
+    "text": "Bir etkinli\u011fe gitmek istiyorum",
+    "intent": "desired_event",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.3277909457683563
+    }
+  },
+  {
+    "text": "5",
+    "intent": "got_total_tickets",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4023953974246979
+    }
+  },
+  {
+    "text": "Ba\u015fka bir \u015fey yok",
+    "intent": "selected_no",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6579103469848633
+    }
+  },
+  {
+    "text": "L\u00fctfen burada bana yiyecek noktalar\u0131 s\u00f6yleyin",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.4660983383655548
+    }
+  },
+  {
+    "text": "Bana Taksim'de birka\u00e7 restoran bul",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.892055094242096
+    }
+  },
+  {
+    "text": "Yeme\u011fe \u00e7\u0131kmak istiyorum",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "telling_cuisine",
+      "confidence": 0.7073248624801636
+    }
+  },
+  {
+    "text": "Gece kul\u00fcb\u00fcne izin veren yer g\u00f6ster bana",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "inform_train_date",
+      "confidence": 0.19492504000663757
+    }
+  },
+  {
+    "text": "Hangilerinin paket servisi oldu\u011funu g\u00f6ster",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.6302251815795898
+    }
+  },
+  {
+    "text": "Hangisinde paket servisi oldu\u011funu g\u00f6ster",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.5103172063827515
+    }
+  },
+  {
+    "text": "L\u00fctfen bana cep dostu olanlar\u0131 bulun",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.4412325918674469
+    }
+  },
+  {
+    "text": "\u00c7in yiyece\u011fim",
+    "intent": "telling_cuisine",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.5167886018753052
+    }
+  },
+  {
+    "text": "Benim se\u00e7imim arap",
+    "intent": "telling_cuisine",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9938819408416748
+    }
+  },
+  {
+    "text": "\u0130talyan mutfa\u011f\u0131",
+    "intent": "telling_cuisine",
+    "intent_prediction": {
+      "name": "telling_location_cuisine",
+      "confidence": 0.6605328917503357
+    }
+  },
+  {
+    "text": "Bana biraz italyan yeme\u011fi getir l\u00fctfen",
+    "intent": "telling_cuisine",
+    "intent_prediction": {
+      "name": "telling_location_cuisine",
+      "confidence": 0.5459691882133484
+    }
+  },
+  {
+    "text": "Yaln\u0131zca bug\u00fcn i\u00e7in ay\u0131rt\u0131n",
+    "intent": "telling_datetime",
+    "intent_prediction": {
+      "name": "desired_event",
+      "confidence": 0.22961078584194183
+    }
+  },
+  {
+    "text": "\u0130stanbul",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "weather_address",
+      "confidence": 0.5018711090087891
+    }
+  },
+  {
+    "text": "Taksim'de restoran ar\u0131yorum",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.8646625876426697
+    }
+  },
+  {
+    "text": "Taksim'de bir \u015feyler yemek istiyorum",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "telling_location_cuisine",
+      "confidence": 0.5079089999198914
+    }
+  },
+  {
+    "text": "Taksim'da Arap yemekleri yiyece\u011fim",
+    "intent": "telling_location_cuisine",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.7726098299026489
+    }
+  },
+  {
+    "text": "Taksim'da Tay yiyece\u011fim",
+    "intent": "telling_location_cuisine",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.9803791046142578
+    }
+  },
+  {
+    "text": "Taksim'de \u00e7in yemeklerini yemem gerekiyor",
+    "intent": "telling_location_cuisine",
+    "intent_prediction": {
+      "name": "telling_cuisine",
+      "confidence": 0.6413782238960266
+    }
+  },
+  {
+    "text": "L\u00fctfen 2 ki\u015filik rezervasyon yap\u0131n",
+    "intent": "telling_numpeople",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.4788022041320801
+    }
+  },
+  {
+    "text": "Harika!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9911447167396545
+    }
+  },
+  {
+    "text": "Harika",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9911447167396545
+    }
+  },
+  {
+    "text": "Pekala, harika",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5440095663070679
+    }
+  },
+  {
+    "text": "Tamam anlad\u0131m",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.5490942597389221
+    }
+  },
+  {
+    "text": "Kula\u011fa ho\u015f geliyor",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.1498062163591385
+    }
+  },
+  {
+    "text": "Bu harika",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.8979530930519104
+    }
+  },
+  {
+    "text": "Bu iyi",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6592303514480591
+    }
+  },
+  {
+    "text": "evet l\u00fctfen rezervasyonla devam edin",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "weather",
+      "confidence": 0.4316047132015228
+    }
+  },
+  {
+    "text": "Rezervasyonu burada yaparsan harika olur.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.15224981307983398
+    }
+  },
+  {
+    "text": "asl\u0131nda",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.7023955583572388
+    }
+  },
+  {
+    "text": "evet \u00e7ok yard\u0131mc\u0131 oldu, te\u015fekk\u00fcrler",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.604138970375061
+    }
+  },
+  {
+    "text": "asla",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.32667237520217896
+    }
+  },
+  {
+    "text": "l\u00fctfen bana yemek yemeden yard\u0131m et",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.22512847185134888
+    }
+  },
+  {
+    "text": "Mutfa\u011f\u0131 bilmiyorum",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.14331230521202087
+    }
+  },
+  {
+    "text": "U\u00e7u\u015f araman\u0131z gerekiyor",
+    "intent": "enquire_flight_details",
+    "intent_prediction": {
+      "name": "faqlatecheckin",
+      "confidence": 0.26811331510543823
+    }
+  },
+  {
+    "text": "U\u00e7u\u015flar l\u00fctfen",
+    "intent": "enquire_flight_details",
+    "intent_prediction": {
+      "name": "faqparkingcost",
+      "confidence": 0.2611664831638336
+    }
+  },
+  {
+    "text": "Herhangi bir otel detay\u0131 var m\u0131?",
+    "intent": "enquire_hotel_details",
+    "intent_prediction": {
+      "name": "telling_cuisine",
+      "confidence": 0.16479788720607758
+    }
+  },
+  {
+    "text": "Bana Ankara'da otel ayarlayabilir misin?",
+    "intent": "desired_city",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.7255560755729675
+    }
+  },
+  {
+    "text": "3",
+    "intent": "desired_room",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.42720767855644226
+    }
+  },
+  {
+    "text": "5 ki\u015filik oda olsun",
+    "intent": "desired_room",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.31212928891181946
+    }
+  },
+  {
+    "text": "iptal s\u00fcreci nedir",
+    "intent": "faqcancellationpolicy",
+    "intent_prediction": {
+      "name": "faqpetpolicy",
+      "confidence": 0.14695151150226593
+    }
+  },
+  {
+    "text": "Standart check-in nedir?",
+    "intent": "faqcheckin",
+    "intent_prediction": {
+      "name": "faqlatecheckin",
+      "confidence": 0.4778614044189453
+    }
+  },
+  {
+    "text": "Ne zaman check-in yapabilirim?",
+    "intent": "faqcheckin",
+    "intent_prediction": {
+      "name": "faqlatecheckin",
+      "confidence": 0.37302878499031067
+    }
+  },
+  {
+    "text": "check-in saati nedir?",
+    "intent": "faqcheckin",
+    "intent_prediction": {
+      "name": "faqlatecheckin",
+      "confidence": 0.45559024810791016
+    }
+  },
+  {
+    "text": "Check-in yapmak i\u00e7in gereken minimum ya\u015f nedir?",
+    "intent": "faqcheckinage",
+    "intent_prediction": {
+      "name": "faqlatecheckin",
+      "confidence": 0.31546682119369507
+    }
+  },
+  {
+    "text": "hangi ya\u015fta check-in yapmama izin veriyorsun",
+    "intent": "faqcheckinage",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.18169741332530975
+    }
+  },
+  {
+    "text": "erken giri\u015fe izin verecek misiniz?",
+    "intent": "faqearlycheckin",
+    "intent_prediction": {
+      "name": "faqcheckin",
+      "confidence": 0.20898708701133728
+    }
+  },
+  {
+    "text": "erken giri\u015f",
+    "intent": "faqearlycheckin",
+    "intent_prediction": {
+      "name": "add_to_mytrip",
+      "confidence": 0.4548256993293762
+    }
+  },
+  {
+    "text": "gecikmi\u015f \u00f6deme",
+    "intent": "faqlatecheckout",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.41843846440315247
+    }
+  },
+  {
+    "text": "bir ki\u015finin rezerve edebilece\u011fi oda say\u0131s\u0131",
+    "intent": "faqroomcount",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.2447831630706787
+    }
+  },
+  {
+    "text": "bir ki\u015finin rezerve edebilece\u011fi maksimum oda say\u0131s\u0131",
+    "intent": "faqroomcount",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.217643603682518
+    }
+  },
+  {
+    "text": "kahvalt\u0131 saatini belirtebilir misiniz?",
+    "intent": "faqbreakfasttime",
+    "intent_prediction": {
+      "name": "selected_event",
+      "confidence": 0.325306236743927
+    }
+  },
+  {
+    "text": "odam i\u00e7in para iadesi almam m\u00fcmk\u00fcn m\u00fc?",
+    "intent": "faqrefundable",
+    "intent_prediction": {
+      "name": "selected_event",
+      "confidence": 0.24419915676116943
+    }
+  },
+  {
+    "text": "iade edilebilir",
+    "intent": "faqrefundable",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.44490548968315125
+    }
+  },
+  {
+    "text": "Resepsiyon 24 saat a\u00e7\u0131k m\u0131?",
+    "intent": "faqreceptiontime",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.5171921253204346
+    }
+  },
+  {
+    "text": "park yeri sa\u011fl\u0131yor musunuz?",
+    "intent": "faqparking",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.19071969389915466
+    }
+  },
+  {
+    "text": "Otel otopark sa\u011fl\u0131yor mu?",
+    "intent": "faqparking",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.20730772614479065
+    }
+  },
+  {
+    "text": "otopark \u00fccreti nedir?",
+    "intent": "faqparkingcost",
+    "intent_prediction": {
+      "name": "faqcontactnumber",
+      "confidence": 0.454214870929718
+    }
+  },
+  {
+    "text": "Otopark Maliyeti",
+    "intent": "faqparkingcost",
+    "intent_prediction": {
+      "name": "faqparking",
+      "confidence": 0.6936704516410828
+    }
+  },
+  {
+    "text": "Rezervasyonumun yaln\u0131zca belirli k\u0131s\u0131mlar\u0131n\u0131 (\u00f6rne\u011fin rezerve edilen iki odadan biri) iptal edebilir miyim?",
+    "intent": "faqpartialcancel",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.2344232201576233
+    }
+  },
+  {
+    "text": "Rezervasyonumun yap\u0131ld\u0131\u011f\u0131n\u0131 nas\u0131l teyit edebilirim?",
+    "intent": "faqreservaconfirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.23122204840183258
+    }
+  },
+  {
+    "text": "17/11/2021 tarihine",
+    "intent": "otel_date_start",
+    "intent_prediction": {
+      "name": "otel_date_end",
+      "confidence": 0.5334446430206299
+    }
+  },
+  {
+    "text": "10/01/2021 tarihi olsun",
+    "intent": "otel_date_start",
+    "intent_prediction": {
+      "name": "otel_date_end",
+      "confidence": 0.4209350347518921
+    }
+  },
+  {
+    "text": "15/11/2021 tarihi uygun mudur?",
+    "intent": "otel_date_end",
+    "intent_prediction": {
+      "name": "otel_date_start",
+      "confidence": 0.5262165665626526
+    }
+  },
+  {
+    "text": "en yak\u0131n havaalan\u0131 nerede?",
+    "intent": "faqnearestairport",
+    "intent_prediction": {
+      "name": "add_to_mytrip",
+      "confidence": 0.3679133653640747
+    }
+  },
+  {
+    "text": "en yak\u0131n havaalan\u0131 hangisi",
+    "intent": "faqnearestairport",
+    "intent_prediction": {
+      "name": "add_to_mytrip",
+      "confidence": 0.2754444181919098
+    }
+  },
+  {
+    "text": "Orada toplant\u0131 d\u00fczenlemek i\u00e7in mevcut imkanlar nelerdir?",
+    "intent": "faqmeetingroom",
+    "intent_prediction": {
+      "name": "inform_destination_airport",
+      "confidence": 0.18310244381427765
+    }
+  },
+  {
+    "text": "bana otelin g\u00fcvenlik d\u00fczenlemelerini s\u00f6yle",
+    "intent": "sssecurity",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.35414811968803406
+    }
+  },
+  {
+    "text": "bagaj depolama tesisi mevcut mu?",
+    "intent": "faqluggage",
+    "intent_prediction": {
+      "name": "faqmodifyreservation",
+      "confidence": 0.18884898722171783
+    }
+  },
+  {
+    "text": "PNR'\u0131m\u0131 kontrol etmem gerekiyor",
+    "intent": "enquire_pnr",
+    "intent_prediction": {
+      "name": "faqcheckin",
+      "confidence": 0.21511755883693695
+    }
+  },
+  {
+    "text": "334455667788 PNR durumunu sa\u011flay\u0131n",
+    "intent": "enquire_pnr",
+    "intent_prediction": {
+      "name": "other_activities",
+      "confidence": 0.23176275193691254
+    }
+  },
+  {
+    "text": "Hangi trenler iptal edildi?",
+    "intent": "enquire_train_cancel",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.25612711906433105
+    }
+  },
+  {
+    "text": "Baz\u0131 kota bilgilerine ihtiyac\u0131m var",
+    "intent": "enquire_train_quota_info",
+    "intent_prediction": {
+      "name": "enquire_flight_details",
+      "confidence": 0.43431544303894043
+    }
+  },
+  {
+    "text": "Trenlerdeki koltuk durumu hakk\u0131nda bilgi almak istiyorum.",
+    "intent": "enquire_train_seat",
+    "intent_prediction": {
+      "name": "more_info_zipline_tour",
+      "confidence": 0.28247717022895813
+    }
+  },
+  {
+    "text": "L\u00fctfen istasyon isimlerine ihtiyac\u0131n\u0131z var!",
+    "intent": "enquire_train_station_name",
+    "intent_prediction": {
+      "name": "faqpetpolicy",
+      "confidence": 0.36662277579307556
+    }
+  },
+  {
+    "text": "85112 ad\u0131 nedir",
+    "intent": "enquire_train_station_name",
+    "intent_prediction": {
+      "name": "faqcontactnumber",
+      "confidence": 0.2794434428215027
+    }
+  },
+  {
+    "text": "\u0130stasyon ad\u0131n\u0131 koddan \u00e7evirmeniz gerekiyor",
+    "intent": "enquire_train_station_name",
+    "intent_prediction": {
+      "name": "enquire_train_station_code",
+      "confidence": 0.20723627507686615
+    }
+  },
+  {
+    "text": "Yok",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4121569097042084
+    }
+  },
+  {
+    "text": "Ba\u015fka bir iste\u011fim yok",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.803024172782898
+    }
+  },
+  {
+    "text": "G\u00fcle g\u00fcle",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.16727812588214874
+    }
+  },
+  {
+    "text": "Tamam kendiye iyi bak",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6099957823753357
+    }
+  },
+  {
+    "text": "Tamam git buradan",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.48150762915611267
+    }
+  },
+  {
+    "text": "Kanka",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "desired_event",
+      "confidence": 0.3093346655368805
+    }
+  },
+  {
+    "text": "iyi ak\u015famlar",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.4199780225753784
+    }
+  },
+  {
+    "text": "\u00e7ok iyi",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.9164049625396729
+    }
+  },
+  {
+    "text": "harika",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9975346922874451
+    }
+  },
+  {
+    "text": "ben iyiyim",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "inform_quota_code",
+      "confidence": 0.29757577180862427
+    }
+  },
+  {
+    "text": "iyi",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8663719892501831
+    }
+  },
+  {
+    "text": "iyiyim",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.2686868906021118
+    }
+  },
+  {
+    "text": "ben iyiyim peki ya sen",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "sssecurity",
+      "confidence": 0.2919592261314392
+    }
+  },
+  {
+    "text": "berbat",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.1726168841123581
+    }
+  },
+  {
+    "text": "korkun\u00e7",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.34790903329849243
+    }
+  },
+  {
+    "text": "22 ya\u015f\u0131nday\u0131m",
+    "intent": "inform_age",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.1690550446510315
+    }
+  },
+  {
+    "text": "Ya\u015f 23",
+    "intent": "inform_age",
+    "intent_prediction": {
+      "name": "inform_train_number",
+      "confidence": 0.23216040432453156
+    }
+  },
+  {
+    "text": "\u0130stanbul",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.5933231115341187
+    }
+  },
+  {
+    "text": "Var\u0131\u015f noktas\u0131 \u0130stanbul",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "inform_destination_station_name",
+      "confidence": 0.5265172719955444
+    }
+  },
+  {
+    "text": "Var\u0131\u015f \u0130stanbul - Kalk\u0131\u015f \u0130stanbul",
+    "intent": "inform_city",
+    "intent_prediction": {
+      "name": "enquire_train_cancel",
+      "confidence": 0.1761961728334427
+    }
+  },
+  {
+    "text": "Saatin ka\u00e7 oldu\u011funu bilmem gerekiyor.",
+    "intent": "ask_time",
+    "intent_prediction": {
+      "name": "enquire_train_cancel",
+      "confidence": 0.3412926197052002
+    }
+  },
+  {
+    "text": "Bu ay i\u00e7in takvimde neler var?",
+    "intent": "ask_which_events",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5781511068344116
+    }
+  },
+  {
+    "text": "tiyatro takvimini nerede g\u00f6rebilirim?",
+    "intent": "ask_which_events",
+    "intent_prediction": {
+      "name": "activities_offered",
+      "confidence": 0.34200942516326904
+    }
+  },
+  {
+    "text": "bug\u00fcn ya\u011fmur ge\u00e7irmez pantolon giymeli miyim",
+    "intent": "weather",
+    "intent_prediction": {
+      "name": "weather_address_date_time",
+      "confidence": 0.619743824005127
+    }
+  },
+  {
+    "text": "bug\u00fcn bir \u015femsiyeye ihtiyac\u0131m var m\u0131",
+    "intent": "weather",
+    "intent_prediction": {
+      "name": "weather_address_date_time",
+      "confidence": 0.4445306956768036
+    }
+  },
+  {
+    "text": "\u0130stanbul",
+    "intent": "weather_address",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.5933231115341187
+    }
+  },
+  {
+    "text": "\u0130stanbul'da",
+    "intent": "weather_address",
+    "intent_prediction": {
+      "name": "inform_city",
+      "confidence": 0.40314793586730957
+    }
+  },
+  {
+    "text": "\u0130stanbul bug\u00fcn ya\u011fmur ya\u011facak m\u0131",
+    "intent": "weather_address",
+    "intent_prediction": {
+      "name": "weather_address_date_time",
+      "confidence": 0.6254035234451294
+    }
+  },
+  {
+    "text": "\u0130stanbul'da hava nas\u0131l",
+    "intent": "weather_address",
+    "intent_prediction": {
+      "name": "weather_address_date_time",
+      "confidence": 0.6023890972137451
+    }
+  },
+  {
+    "text": "SL s\u0131n\u0131f\u0131d\u0131r",
+    "intent": "inform_class_code",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.6619249582290649
+    }
+  },
+  {
+    "text": "\u0130zmir",
+    "intent": "inform_destination_airport",
+    "intent_prediction": {
+      "name": "desired_city",
+      "confidence": 0.4048621654510498
+    }
+  },
+  {
+    "text": "Ba\u015flang\u0131\u00e7 noktas\u0131 Malatya",
+    "intent": "inform_destination_airport",
+    "intent_prediction": {
+      "name": "inform_source_station_name",
+      "confidence": 0.4501766860485077
+    }
+  },
+  {
+    "text": "Var\u0131\u015f noktas\u0131 Adana",
+    "intent": "inform_destination_airport",
+    "intent_prediction": {
+      "name": "inform_destination_station_name",
+      "confidence": 0.4311375021934509
+    }
+  },
+  {
+    "text": "BAKIRK\u00d6Y",
+    "intent": "inform_destination_station_name",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.17721696197986603
+    }
+  },
+  {
+    "text": "1 yeti\u015fkin",
+    "intent": "inform_no_of_adults",
+    "intent_prediction": {
+      "name": "inform_train_number",
+      "confidence": 0.5368494391441345
+    }
+  },
+  {
+    "text": "Yeti\u015fkin say\u0131s\u0131 5",
+    "intent": "inform_no_of_adults",
+    "intent_prediction": {
+      "name": "inform_train_number",
+      "confidence": 0.2717246413230896
+    }
+  },
+  {
+    "text": "3",
+    "intent": "inform_no_of_children",
+    "intent_prediction": {
+      "name": "telling_phoneno",
+      "confidence": 0.42720767855644226
+    }
+  },
+  {
+    "text": "0 bebek",
+    "intent": "inform_no_of_infants",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.25819385051727295
+    }
+  },
+  {
+    "text": "2 bebek var",
+    "intent": "inform_no_of_infants",
+    "intent_prediction": {
+      "name": "inform_seating_class",
+      "confidence": 0.20333333313465118
+    }
+  },
+  {
+    "text": "PNR 1122334455",
+    "intent": "inform_pnr",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.20677636563777924
+    }
+  },
+  {
+    "text": "PNR kodu 6527340784",
+    "intent": "inform_pnr",
+    "intent_prediction": {
+      "name": "other_activities",
+      "confidence": 0.2658413350582123
+    }
+  },
+  {
+    "text": "Istanbul",
+    "intent": "inform_source_airport",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.25331515073776245
+    }
+  },
+  {
+    "text": "\u00dcsk\u00fcdar'dan",
+    "intent": "inform_source_station_name",
+    "intent_prediction": {
+      "name": "enquire_pnr",
+      "confidence": 0.21966277062892914
+    }
+  },
+  {
+    "text": "Kad\u0131k\u00f6y",
+    "intent": "inform_source_station_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.45708322525024414
+    }
+  },
+  {
+    "text": "Yenikap\u0131'da",
+    "intent": "inform_source_station_name",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.29244861006736755
+    }
+  },
+  {
+    "text": "CSMT'den",
+    "intent": "inform_station_code",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.33277663588523865
+    }
+  },
+  {
+    "text": "Kod TKD",
+    "intent": "inform_station_code",
+    "intent_prediction": {
+      "name": "inform_quota_code",
+      "confidence": 0.2046227902173996
+    }
+  },
+  {
+    "text": "Ana men\u00fcy\u00fc g\u00f6rebilir miyim?",
+    "intent": "main_menu",
+    "intent_prediction": {
+      "name": "telling_category",
+      "confidence": 0.42577996850013733
+    }
+  },
+  {
+    "text": "Gezimi Planla",
+    "intent": "plan_my_trip",
+    "intent_prediction": {
+      "name": "faqparkingcost",
+      "confidence": 0.18638983368873596
+    }
+  },
+  {
+    "text": "Seyahatimi planla",
+    "intent": "plan_my_trip",
+    "intent_prediction": {
+      "name": "faqmeetingroom",
+      "confidence": 0.3354575037956238
+    }
+  },
+  {
+    "text": "Aktiviteler",
+    "intent": "activities_offered",
+    "intent_prediction": {
+      "name": "other_activities",
+      "confidence": 0.27221131324768066
+    }
+  },
+  {
+    "text": "Faaliyetler nelerdir?",
+    "intent": "activities_offered",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.21278981864452362
+    }
+  },
+  {
+    "text": "\u0130stanbul hakk\u0131nda bilgi alabilir miyim?",
+    "intent": "about_istanbul",
+    "intent_prediction": {
+      "name": "more_info_zipline_tour",
+      "confidence": 0.5523754954338074
+    }
+  },
+  {
+    "text": "Daha fazla aktivite alabilir miyim?",
+    "intent": "other_activities",
+    "intent_prediction": {
+      "name": "more_info_zipline_tour",
+      "confidence": 0.24278584122657776
+    }
+  },
+  {
+    "text": "Etkinlik listesini istiyorum",
+    "intent": "selected_list",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.29819995164871216
+    }
+  },
+  {
+    "text": "L\u00fctfen t\u00fcm etkinliklerin listesini g\u00f6r\u00fcnt\u00fcleyin",
+    "intent": "selected_list",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.34997865557670593
+    }
+  },
+  {
+    "text": "Etkinlik se\u00e7mek istiyorum",
+    "intent": "desired_event",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.7605459690093994
+    }
+  },
+  {
+    "text": "Etkinlik",
+    "intent": "desired_event",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.9832245111465454
+    }
+  },
+  {
+    "text": "2 tane bilet olacakt\u0131r",
+    "intent": "got_total_tickets",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.2729412317276001
+    }
+  },
+  {
+    "text": "1 bilet istiyorum",
+    "intent": "got_total_tickets",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.21486660838127136
+    }
+  },
+  {
+    "text": "Toplam 1 bilet",
+    "intent": "got_total_tickets",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.23710088431835175
+    }
+  },
+  {
+    "text": "Yok",
+    "intent": "selected_no",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4121569097042084
+    }
+  },
+  {
+    "text": "Yeterli",
+    "intent": "selected_no",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6019467711448669
+    }
+  },
+  {
+    "text": "A\u00e7\u0131m",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "faqparkingcost",
+      "confidence": 0.18599696457386017
+    }
+  },
+  {
+    "text": "Bana yiyecek tezgahlar\u0131 \u00f6ner",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "other_activities",
+      "confidence": 0.3194507658481598
+    }
+  },
+  {
+    "text": "Yiyece\u011fe ihtiyac\u0131m var",
+    "intent": "restaurant_search",
+    "intent_prediction": {
+      "name": "enquire_flight_details",
+      "confidence": 0.15273034572601318
+    }
+  },
+  {
+    "text": "teslimat yapabilen restoranlar\u0131 g\u00f6rmek istiyorum",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "enquire_flight_details",
+      "confidence": 0.16607820987701416
+    }
+  },
+  {
+    "text": "Bar'a gitmek istiyorum",
+    "intent": "telling_category",
+    "intent_prediction": {
+      "name": "desired_event",
+      "confidence": 0.5840998291969299
+    }
+  },
+  {
+    "text": "Meksika yemeklerini yemeyi \u00e7ok isterim",
+    "intent": "telling_cuisine",
+    "intent_prediction": {
+      "name": "telling_location_cuisine",
+      "confidence": 0.6156891584396362
+    }
+  },
+  {
+    "text": "Bana dondurma ver",
+    "intent": "telling_cuisine",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.2262132465839386
+    }
+  },
+  {
+    "text": "yar\u0131n L\u00fctfen",
+    "intent": "telling_datetime",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3670874536037445
+    }
+  },
+  {
+    "text": "Yar\u0131ndan sonraki g\u00fcn l\u00fctfen",
+    "intent": "telling_datetime",
+    "intent_prediction": {
+      "name": "ask_which_events",
+      "confidence": 0.917841374874115
+    }
+  },
+  {
+    "text": "L\u00fctfen 10 Ekim 2019 i\u00e7in yer ay\u0131rt\u0131n",
+    "intent": "telling_datetime",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.6966292262077332
+    }
+  },
+  {
+    "text": "1 Ocak 2020 i\u00e7in rezervasyon yap\u0131n",
+    "intent": "telling_datetime",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.5410935878753662
+    }
+  },
+  {
+    "text": "Konumum Istanbul'da olacak",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "inform_flight_date",
+      "confidence": 0.24007555842399597
+    }
+  },
+  {
+    "text": "Taksim'da yemek yiyecek bir yer bul bana",
+    "intent": "telling_location",
+    "intent_prediction": {
+      "name": "restaurant_search",
+      "confidence": 0.6113216876983643
+    }
+  },
+  {
+    "text": "Taksim\u2019de \u00c7in mutfa\u011f\u0131ndan bir \u015feyler yemek istiyorum",
+    "intent": "telling_location_cuisine",
+    "intent_prediction": {
+      "name": "telling_location",
+      "confidence": 0.9073614478111267
+    }
+  },
+  {
+    "text": "Evet, l\u00fctfen not edin 8724537891",
+    "intent": "telling_phoneno",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.29459241032600403
+    }
+  },
+  {
+    "text": "9810293859 ileti\u015fim numaras\u0131yla rezervasyon yapmak istiyorum",
+    "intent": "telling_phoneno",
+    "intent_prediction": {
+      "name": "enquire_train_route",
+      "confidence": 0.2471630573272705
+    }
+  },
+  {
+    "text": "L\u00fctfen 1111111111 ile rezervasyon yap\u0131n",
+    "intent": "telling_phoneno",
+    "intent_prediction": {
+      "name": "telling_numpeople",
+      "confidence": 0.8632240295410156
+    }
+  },
+  {
+    "text": "Bunu kesinlikle \u00e7ok isterim",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3113201856613159
+    }
+  },
+  {
+    "text": "Tamam",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6537816524505615
+    }
+  },
+  {
+    "text": "Elbette",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.4790826439857483
+    }
+  },
+  {
+    "text": "\u0130nan\u0131lmaz!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.9552921056747437
+    }
+  },
+  {
+    "text": "\u00c7ok iyi gidiyor",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.6985474228858948
+    }
+  },
+  {
+    "text": "Bunu istiyorum",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5949686765670776
+    }
+  },
+  {
+    "text": "Fena de\u011fil",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "faqbabycot",
+      "confidence": 0.40359365940093994
+    }
+  },
+  {
+    "text": "M\u00fckemmel",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.98260098695755
+    }
+  },
+  {
+    "text": "\u00c7ok fazla",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.31124407052993774
+    }
+  },
+  {
+    "text": "Ya\u015fas\u0131n",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.29814380407333374
+    }
+  },
+  {
+    "text": "neden olmas\u0131n",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.36101987957954407
+    }
+  },
+  {
+    "text": "do\u011fru",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "inform_destination_airport",
+      "confidence": 0.3607451319694519
+    }
+  },
+  {
+    "text": "Te\u015fekk\u00fcrler",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9979013204574585
+    }
+  },
+  {
+    "text": "\u00e7ok te\u015fekk\u00fcrler",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9293635487556458
+    }
+  },
+  {
+    "text": "Hay\u0131r",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.8469133377075195
+    }
+  },
+  {
+    "text": "ben \u00f6yle d\u00fc\u015f\u00fcnm\u00fcyorum",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.26342204213142395
+    }
+  },
+  {
+    "text": "pek say\u0131lmaz",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "selected_event",
+      "confidence": 0.5433782339096069
+    }
+  },
+  {
+    "text": "Her \u015fey yolunda",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "selected_no",
+      "confidence": 0.3866906762123108
+    }
+  }
+]

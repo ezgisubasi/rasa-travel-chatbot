@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="./recorder.js"></script> -->
+    <title>Traveler Chatbot</title>
+</head>
+
+<body>
+    <div class='mainHeader' id='mainHeader'>
+    <h1 style="text-align: center; font-family: 'Courier New', Courier, monospace;">
+        ASSISTANT BOT FOR TRAVEL
+    </h1>
+    </div>
+    <div style="width: 50%; text-align: center; margin-left: 25vw; margin-right: 20vw;">
+    <div id="chatcontainer">
+        <div class="message-container">
+            <div class="message bot-message">Merhaba! Ben travel-botum. </div>
+        </div>
+        <div class="message-container">
+            <div class="message human-message" style="margin-left:auto">Selam bot :) </div>
+        </div>
+      </div>
+      <div id="messageinput">
+        <input type="text" id="inputbox" name="userinput" onkeyup="enterListener(event)" placeholder="Lütfen mesajınızı giriniz...">
+    </div>
+</div>
+<script src="./base.js"></script>
+</body>
+</html>

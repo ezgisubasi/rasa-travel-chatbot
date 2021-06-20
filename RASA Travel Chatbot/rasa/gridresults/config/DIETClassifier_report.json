@@ -1,0 +1,274 @@
+{
+  "class_num": {
+    "precision": 0.7142857142857143,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8,
+    "support": 11,
+    "confused_with": {}
+  },
+  "cuisine": {
+    "precision": 0.9333333333333333,
+    "recall": 0.7924528301886793,
+    "f1-score": 0.8571428571428572,
+    "support": 53,
+    "confused_with": {
+      "date_time": 1
+    }
+  },
+  "station_code": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "person": 2,
+      "class_num": 1
+    }
+  },
+  "ticket": {
+    "precision": 1.0,
+    "recall": 0.2,
+    "f1-score": 0.33333333333333337,
+    "support": 5,
+    "confused_with": {
+      "person": 3,
+      "phone_no": 1
+    }
+  },
+  "date_time": {
+    "precision": 0.6521739130434783,
+    "recall": 0.5,
+    "f1-score": 0.5660377358490566,
+    "support": 30,
+    "confused_with": {
+      "person": 4
+    }
+  },
+  "quota_code": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 4,
+    "confused_with": {
+      "class_num": 1
+    }
+  },
+  "child": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 6,
+    "confused_with": {
+      "adult": 1,
+      "pnr_num": 1
+    }
+  },
+  "pnr_num": {
+    "precision": 0.25,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2,
+    "support": 6,
+    "confused_with": {
+      "phone_no": 2,
+      "train_num": 1,
+      "person": 1
+    }
+  },
+  "destination_city": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "city": 3
+    }
+  },
+  "weather": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "age": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "person": 2,
+      "phone_no": 1
+    }
+  },
+  "city": {
+    "precision": 0.8695652173913043,
+    "recall": 0.9302325581395349,
+    "f1-score": 0.898876404494382,
+    "support": 43,
+    "confused_with": {
+      "destination_city": 1
+    }
+  },
+  "person": {
+    "precision": 0.5121951219512195,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.6666666666666667,
+    "support": 22,
+    "confused_with": {
+      "pnr_num": 1
+    }
+  },
+  "train_num": {
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1-score": 0.5454545454545454,
+    "support": 6,
+    "confused_with": {
+      "phone_no": 2,
+      "person": 1
+    }
+  },
+  "mail": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "station": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "event": {
+    "precision": 0.9459459459459459,
+    "recall": 0.8536585365853658,
+    "f1-score": 0.8974358974358975,
+    "support": 41,
+    "confused_with": {
+      "category": 2
+    }
+  },
+  "train_date": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "category": {
+    "precision": 0.868421052631579,
+    "recall": 0.75,
+    "f1-score": 0.8048780487804879,
+    "support": 44,
+    "confused_with": {}
+  },
+  "location": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 3,
+    "confused_with": {
+      "place": 3
+    }
+  },
+  "adult": {
+    "precision": 0.3333333333333333,
+    "recall": 0.25,
+    "f1-score": 0.28571428571428575,
+    "support": 4,
+    "confused_with": {
+      "phone_no": 2,
+      "person": 1
+    }
+  },
+  "end_date": {
+    "precision": 0.5,
+    "recall": 0.4,
+    "f1-score": 0.4444444444444445,
+    "support": 5,
+    "confused_with": {
+      "start_date": 3
+    }
+  },
+  "flight_date": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5,
+    "confused_with": {}
+  },
+  "source_city": {
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "f1-score": 0.5,
+    "support": 5,
+    "confused_with": {
+      "city": 2
+    }
+  },
+  "station_name": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "start_date": {
+    "precision": 0.4,
+    "recall": 0.5,
+    "f1-score": 0.4444444444444445,
+    "support": 4,
+    "confused_with": {
+      "end_date": 2
+    }
+  },
+  "infant": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "person": 2,
+      "adult": 1,
+      "train_num": 1
+    }
+  },
+  "phone_no": {
+    "precision": 0.4666666666666667,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.5384615384615385,
+    "support": 11,
+    "confused_with": {
+      "person": 2,
+      "infant": 1
+    }
+  },
+  "place": {
+    "precision": 0.925,
+    "recall": 1.0,
+    "f1-score": 0.961038961038961,
+    "support": 37,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.7824858757062146,
+    "recall": 0.7139175257731959,
+    "f1-score": 0.7466307277628033,
+    "support": 388
+  },
+  "macro avg": {
+    "precision": 0.5679627689166405,
+    "recall": 0.5170003652269051,
+    "f1-score": 0.52333895159177,
+    "support": 388
+  },
+  "weighted avg": {
+    "precision": 0.744676805959038,
+    "recall": 0.7139175257731959,
+    "f1-score": 0.7164313325849923,
+    "support": 388
+  }
+}
