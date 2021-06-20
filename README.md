@@ -44,9 +44,8 @@ Due to the small number of chatbots in the Turkish language, Turkish datasets ar
 
 # RASA
 
-## Rasa Core:
+Rasa is an open source python library for constructing conversational software with minimal (or no) initial training data. It consists of two parts: Rasa NLU and Rasa Core. Dialogue management problem can be handled as a classification problem. At each iteration, Rasa Core predicts which action to take from a predefined list. On the other hand, #Rasa NLU# is a tool for natural language understanding. It combines a number of natural language processing and machine learning libraries in a consistent API.
 
-## Rasa NLU:
 
 
 # Best Configuration
