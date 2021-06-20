@@ -22,15 +22,15 @@ Here is my Senior Design Project that I implemented to graduate from Computer En
 Here is an example conversation for booking an event in Turkish.
 
 <p align="center"> 
-      <img width="523" alt="Ekran Resmi 2021-06-20 15 00 44" src="https://user-images.githubusercontent.com/52889449/122673287-64d8c100-d1d8-11eb-8694-e46359ee8055.png">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 00 44" src="https://user-images.githubusercontent.com/52889449/122673287-64d8c100-d1d8-11eb-8694-e46359ee8055.png">
 </p>
  
 <p align="center"> 
-      <img width="523" alt="Ekran Resmi 2021-06-20 15 00 57" src="https://user-images.githubusercontent.com/52889449/122673289-66a28480-d1d8-11eb-9845-0cf0f428023d.png">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 00 57" src="https://user-images.githubusercontent.com/52889449/122673289-66a28480-d1d8-11eb-9845-0cf0f428023d.png">
 </p>
 
 <p align="center"> 
-      <img width="523" alt="Ekran Resmi 2021-06-20 15 01 06" src="https://user-images.githubusercontent.com/52889449/122673291-67d3b180-d1d8-11eb-98cc-9ae7bf856697.png">
+      <img width="300" alt="Ekran Resmi 2021-06-20 15 01 06" src="https://user-images.githubusercontent.com/52889449/122673291-67d3b180-d1d8-11eb-98cc-9ae7bf856697.png">
 </p>
 
 
@@ -56,6 +56,17 @@ First a message is received and passed to Rasa NLU to extract the intent, entiti
 # Best Configuration
 
 We used pre-trained language model BERT for our pipeline. We compared three different pipeline configurations: a light configuration, a configuration using ConveRT, and a heavy configuration that included BERT. In each case we’re training a DIETClassifier for combined intent classification and entity recognition for 200 epochs, but in the light configuration we have CountVectorsFeaturizer, which creates bag-of-word representations for each incoming message at word and character levels. In the end, we chose config-light as the configuration of the chatbot.
+
+# Results of the Configurations
+
+<p align="center"> 
+      <img width="571" alt="Ekran Resmi 2021-06-20 15 21 16" src="https://user-images.githubusercontent.com/52889449/122673919-7c657900-d1db-11eb-933f-430a6520ec19.png">
+</p>
+
+<p align="center"> 
+      <img width="571" alt="Ekran Resmi 2021-06-20 15 21 27" src="https://user-images.githubusercontent.com/52889449/122673920-7d96a600-d1db-11eb-9851-fcf36fc4f137.png">
+</p>
+
 
 ### config-light:
 
@@ -83,14 +94,4 @@ We used pre-trained language model BERT for our pipeline. We compared three diff
       <img width="300" alt="Ekran Resmi 2021-06-20 15 32 12" src="https://user-images.githubusercontent.com/52889449/122674209-c307a300-d1dc-11eb-9dce-836d022e241d.png">    
       <img width="300" alt="Ekran Resmi 2021-06-20 15 32 22" src="https://user-images.githubusercontent.com/52889449/122674210-c4d16680-d1dc-11eb-9503-ad7f33a51bef.png">   
       <img width="300" alt="Ekran Resmi 2021-06-20 15 32 32" src="https://user-images.githubusercontent.com/52889449/122674213-c69b2a00-d1dc-11eb-8821-75aa89e2ee33.png">
-</p>
-
-# Results of the Configurations
-
-<p align="center"> 
-      <img width="571" alt="Ekran Resmi 2021-06-20 15 21 16" src="https://user-images.githubusercontent.com/52889449/122673919-7c657900-d1db-11eb-933f-430a6520ec19.png">
-</p>
-
-<p align="center"> 
-      <img width="571" alt="Ekran Resmi 2021-06-20 15 21 27" src="https://user-images.githubusercontent.com/52889449/122673920-7d96a600-d1db-11eb-9851-fcf36fc4f137.png">
 </p>
