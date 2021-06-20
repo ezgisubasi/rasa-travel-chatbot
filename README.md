@@ -25,13 +25,13 @@ Here is an example conversation for booking an event in Turkish.
       <img width="550" alt="Ekran Resmi 2021-06-20 15 00 44" src="https://user-images.githubusercontent.com/52889449/122673287-64d8c100-d1d8-11eb-8694-e46359ee8055.png">
 </p>
 
-In the figure, the chatbot is trying to learn which event the user wants to go to after the greeting.
+In this figure, the chatbot is trying to learn which event the user wants to go to after the greeting.
 
 <p align="center"> 
       <img width="550" alt="Ekran Resmi 2021-06-20 15 00 57" src="https://user-images.githubusercontent.com/52889449/122673289-66a28480-d1d8-11eb-9845-0cf0f428023d.png">
 </p>
 
-In this figure, the chatbot asks for how many tickets the user wants and tries to make the reservation by asking for an e-mail.
+After that the chatbot asks for how many tickets the user wants and tries to make the reservation by asking for an e-mail.
 
 <p align="center"> 
       <img width="550" alt="Ekran Resmi 2021-06-20 15 01 06" src="https://user-images.githubusercontent.com/52889449/122673291-67d3b180-d1d8-11eb-98cc-9ae7bf856697.png">
