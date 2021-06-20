@@ -1,5 +1,9 @@
 # rasa-travel-chatbot
 
+<p align="center"> 
+      <img width="653" alt="Ekran Resmi 2021-06-20 15 44 14" src="https://user-images.githubusercontent.com/52889449/122674712-0f53e280-d1df-11eb-8c33-4c3af63f5901.png">
+</p>
+
 Here is my Senior Design Project that I implemented to graduate from Computer Engineering. It is a chatbot made in RASA and helps the user to plan their vacation in the Turkish language. In order to plan the user's vacation, it provides reservations by asking various questions for hotel, flight, or event. 
 
 # How to Run the Project?
@@ -50,6 +54,11 @@ Due to the small number of chatbots in the Turkish language, Turkish datasets ar
 # RASA
 
 Rasa is an open source python library for constructing conversational software with minimal (or no) initial training data. It consists of two parts: Rasa NLU and Rasa Core. Dialogue management problem can be handled as a classification problem. At each iteration, **Rasa Core** predicts which action to take from a predefined list. On the other hand, **Rasa NLU** is a tool for natural language understanding. It combines a number of natural language processing and machine learning libraries in a consistent API.
+
+<p align="center"> 
+     <img width="550" alt="Ekran Resmi 2021-06-20 15 17 46" src="https://user-images.githubusercontent.com/52889449/122674675-e9c6d900-d1de-11eb-94f0-937db5a811ea.png">
+</p>
+
 
 First a message is received and passed to Rasa NLU to extract the intent, entities, and the other structured information. Then the conversation state saved in the tracker which receives a notification that a new message has been received. In step 3, the policy receives the current state of the tracker and chooses which action to take next. Then chosen action is logged by the tracker and executed. If the predicted action is not ‘listen’, go back to step 3. After the first step all the remaining steps are performed by Rasa Core.
 
